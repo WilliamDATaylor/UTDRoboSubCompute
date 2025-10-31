@@ -1,0 +1,69 @@
+(ExpressProject "TPS56A37_PSPICE_TRANS"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "23.1-2024 S001-[11/29/23]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\tps56a37rpa_trans.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\tps56a37_pspice_trans.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (RootChangedForceReNetlist "x")
+    (Display_Online_DRC_Results "FALSE")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\tps56a37_pspice_trans-pspicefiles\startup\startup.net"
+      (Type "Report"))
+    (File ".\tps56a37_pspice_trans-pspicefiles\steadystate\steadystate.net"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tps56a37_pspice_trans-pspicefiles\startup\startup.sim"
+        (DisplayName "Startup-Startup")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tps56a37_pspice_trans-pspicefiles\steadystate\steadystate.sim"
+        (DisplayName "Steadystate-Steadystate")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\tps56a37_pspice_trans-pspicefiles\startup\startup.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\tps56a37_pspice.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\tps56a37_pspice.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector
+    (TPS56A37RPA_TRANS
+      (FullPartName "TPS56A37RPA_TRANS.Normal")
+      (LibraryName
+         "C:\USERS\A0929996\DESKTOP\CASSIOPEIA SPIN BITBUCKET\TPS56A37_PSPICE_TRANS\TPS56A37RPA_TRANS.OLB")
+      (DeviceIndex "0"))
+    (IPULSE
+      (FullPartName "IPULSE.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 263"))
+      (Tab 0)))
+  (MPSSessionName "wtcb4"))
