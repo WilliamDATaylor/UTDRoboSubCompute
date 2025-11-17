@@ -3,4 +3,6 @@
   (lib (name "CM5IO")(type "KiCad")(uri "${KIPRJMOD}/libraries/RP-008099-DD-CM5-IO-Board-revision-2-KiCAD-files/CM5IO.kicad_sym")(options "")(descr ""))
   (lib (name "2025-10-21_03-43-26")(type "KiCad")(uri "${KIPRJMOD}/libraries/TPS56A37RPAR/KiCADv6/2025-10-21_03-43-26.kicad_sym")(options "")(descr ""))
   (lib (name "AP22653W6-7")(type "KiCad")(uri "${KIPRJMOD}/libraries/AP22653W6_7 USB curernt limit switch/AP22653W6-7.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-11-03_19-56-30")(type "KiCad")(uri "${KIPRJMOD}/libraries/pca9685 pwm controller/KiCADv6/2025-11-03_19-56-30.kicad_sym")(options "")(descr ""))
+  (lib (name "Adafruit PCA9685 rev C-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/references/Adafruit-16-Channel-PWM-Servo-Driver-PCB-master/Adafruit PCA9685 rev C-eagle-import.kicad_sym")(options "")(descr ""))
 )

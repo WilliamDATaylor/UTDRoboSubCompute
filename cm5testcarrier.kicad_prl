@@ -1,13 +1,19 @@
 {
   "board": {
-    "active_layer": 6,
+    "active_layer": 25,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
       "GND",
-      "+5V",
-      "/GPIO4"
+      "/SD_PWR",
+      "/SD_DAT0",
+      "/SD_DAT1",
+      "/SD_CLK",
+      "/SD_DAT2",
+      "/SD_CMD",
+      "/SD_DAT3",
+      "/SD_PWR_ON"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -54,7 +60,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "00000000_00000000_55555555_5757ffff",
     "zone_display_mode": 0
   },
   "git": {
