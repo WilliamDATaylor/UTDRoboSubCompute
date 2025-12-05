@@ -658,6 +658,18 @@
           "label": "Field6",
           "name": "Field6",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "digikey pn",
+          "name": "digikey pn",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_PN",
+          "name": "DigiKey_PN",
+          "show": true
         }
       ],
       "filter_string": "",

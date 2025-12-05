@@ -1,39 +1,4 @@
-26713778441549751
-12pin header
-CON12_3X4_TU_TSW_SAI
-
-TSW-104-07-F-T 
-0
-12
-12
-220 ohm resistor net CAY16
-BO_CAY16
-
-CAY16-221J4LF 
-0
-8
-8
-220 ohm resistor net CAY16
-BO_CAY16-L
-
-CAY16-221J4LF 
-0
-8
-8
-220 ohm resistor net CAY16
-BO_CAY16-M
-
-CAY16-221J4LF 
-0
-8
-8
-AP22653W6_7 USB curernt limit switch
-SOT95P280X145-6N
-
-
-0
-6
-6
+26696181637915722
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2848,76 +2813,6 @@ speaker CUI
 0
 2
 2
-CM5IO
-BatteryHolder_Keystone_3034_1x20mm
-Keystone 3034 SMD battery holder for 2020, 2025 and 2032 coincell batteries. http://www.keyelco.com/product-pdf.cfm?p=798
-Keystone type 3034 coin cell retainer
-0
-3
-2
-CM5IO
-EDAC 690-019-298-412
-
-
-0
-23
-23
-CM5IO
-Hirose_FH12-22S-0.5SH_1x22-1MP_P0.50mm_Horizontal
-Molex FH12, FFC/FPC connector, FH12-22S-0.5SH, 22 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
-connector Hirose  top entry
-0
-24
-23
-CM5IO
-L_Bourns_SRP5030CC
-Inductor, Bourns, SRP5030T, 5.7mmx5.2mm (Script generated with StandardBox.py) (https://www.bourns.com/data/global/pdfs/SRP5030T.pdf)
-Inductor Bourns_SRP5030T
-0
-2
-2
-CM5IO
-M.2 M Key socket
-
-
-0
-73
-73
-CM5IO
-MTCONN_UBAF30-D2011
-USB3 Stacked type A socket
-USB3 TypeA
-0
-22
-19
-CM5IO
-MountingHole_2.7mm_M2.5_DIN965
-Mounting Hole 2.7mm, no annular, M2.5, DIN965
-mounting hole 2.7mm no annular m2.5 din965
-0
-0
-0
-CM5IO
-Raspberry-Pi-5-Compute-Module
-Raspberry Pi 5 Compute Module
-Raspberry Pi 5 Compute Module
-0
-200
-200
-CM5IO
-SDCARD_MOLEX_503398-1892
-
-
-0
-14
-11
-CM5IO
-TRJG0926HENL
-https://p.globalsources.com/IMAGES/PDT/SPEC/690/K1160305690.pdf
-RJ45 Magjack
-0
-20
-20
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -74829,27 +74724,6 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-PCA9685
-TSSOP28_SOT361-1_NXP
-
-PCA9685PW/Q900_118 
-0
-28
-28
-PCA9685
-TSSOP28_SOT361-1_NXP-L
-
-PCA9685PW/Q900_118 
-0
-28
-28
-PCA9685
-TSSOP28_SOT361-1_NXP-M
-
-PCA9685PW/Q900_118 
-0
-28
-28
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13
@@ -97236,6 +97110,69 @@ Resistor Radial_Power series Radial pin pitch 7.37mm 10W length 16.1mm width 9mm
 0
 2
 2
+RoboSubCompute.footprints
+4x_220_resistor_net
+
+CAY16-221J4LF 
+0
+8
+8
+RoboSubCompute.footprints
+CON12_3X4_TU_TSW_SAI
+
+TSW-104-07-F-T 
+0
+12
+12
+RoboSubCompute.footprints
+CONN2_2091-1372_WAGO
+
+2091-1372 
+0
+2
+2
+RoboSubCompute.footprints
+Raspberry-Pi-5-Compute-Module
+Raspberry Pi 5 Compute Module
+Raspberry Pi 5 Compute Module
+0
+200
+200
+RoboSubCompute.footprints
+SDCARD_MOLEX_503398-1892
+
+
+0
+14
+11
+RoboSubCompute.footprints
+USB3.0_2x_conn
+USB3 Stacked type A socket
+USB3 TypeA
+0
+22
+19
+RoboSubCompute.footprints
+USB_Current_limit_Switch_AP22653W6-7
+
+
+0
+6
+6
+RoboSubCompute.footprints
+ethernet_jack
+https://p.globalsources.com/IMAGES/PDT/SPEC/690/K1160305690.pdf
+RJ45 Magjack
+0
+20
+20
+RoboSubCompute.footprints
+servo_controller_pca9685
+
+PCA9685PW/Q900_118 
+0
+28
+28
 Rotary_Encoder
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC11E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
@@ -99497,13 +99434,6 @@ Logo WEEE
 0
 0
 0
-TPS56A37
-RPA0010A-MFG
-
-TPS56A37RPAR 
-0
-10
-10
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
