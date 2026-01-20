@@ -1,4 +1,4 @@
-26696181637915722
+26705006183596336
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97334,6 +97334,41 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SamacSys_Parts
+1663962
+1663962-2
+Connector
+0
+14
+14
+SamacSys_Parts
+ARJM11B1502NNEW2
+ARJM11B1-502-NN-EW2
+Connector
+0
+12
+12
+SamacSys_Parts
+GSB191217FHR
+GSB191217FHR-2
+Connector
+0
+8
+8
+SamacSys_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+USB1055GFLA
+USB1055-GF-L-A-2
+Connector
+0
+6
+6
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf

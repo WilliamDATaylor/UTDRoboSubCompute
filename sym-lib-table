@@ -6,4 +6,5 @@
   (lib (name "Current_limit_switch_AP22653W6-7")(type "KiCad")(uri "${KIPRJMOD}/RoboSubCompute.symbols/Current_limit_switch_AP22653W6-7.kicad_sym")(options "")(descr ""))
   (lib (name "pwm_controller_pca9685")(type "KiCad")(uri "${KIPRJMOD}/RoboSubCompute.symbols/pwm_controller_pca9685.kicad_sym")(options "")(descr ""))
   (lib (name "WAGO_Conn_2091_1372")(type "KiCad")(uri "${KIPRJMOD}/RoboSubCompute.symbols/WAGO_Conn_2091_1372.kicad_sym")(options "")(descr ""))
+  (lib (name "csi connector")(type "KiCad")(uri "${KIPRJMOD}/RoboSubCompute.symbols/CONN_FH12-22S-0.5SH55_HIR.kicad_sym")(options "")(descr ""))
 )

@@ -1,18 +1,11 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [
-      "/SD_PWR",
-      "/SD_DAT0",
-      "/SD_DAT1",
-      "/SD_CLK",
-      "/SD_DAT2",
-      "/SD_CMD",
-      "/SD_DAT3",
-      "/SD_PWR_ON"
+      "GND"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -59,7 +52,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_fffffff7_77f7ffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -106,7 +99,7 @@
       91,
       71,
       91,
-      91
+      705
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
