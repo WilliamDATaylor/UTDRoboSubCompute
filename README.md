@@ -77,6 +77,7 @@ dtoverlay=dwc2,dr_mode=host
 USB 3.0_1 is P/N swapped to avoid using vias or messy fanouts 
 
 ### CM5
+The CM5 is placed with the wireless antenna pointing inward. As this is meant to be installed inside two inches of aluminum, wifi and bluetooth connectivity have been disregarded. 
 
 ### Fan
 max power draw: 12w 
