@@ -2,6 +2,8 @@
 Raspberry PI CM5 carrier board designed for the University of Texas at Dallas' ROV.
 
 
+![KiCad 3d render of the PCB ](https://pics.wdat-homelab.xyz/u/gkNJ3p.png)
+
 Designs are heavily influenced by the reference RPI CM5 IO board.
 
 [CM5 IO Board Datasheet](https://pip-assets.raspberrypi.com/categories/1097-raspberry-pi-compute-module-5-io-board/documents/RP-008182-DS-2-cm5io-datasheet.pdf?disposition=inline)
