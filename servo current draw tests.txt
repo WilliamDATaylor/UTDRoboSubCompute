@@ -1,0 +1,35 @@
+INJORA INJS235 35KG Waterproof Brushless servo motor 
+idle power consumption 3mA
+180 degree range 
+
+
+### 8.4v
+
+peak current draw at 0 to 180 : 2.1 A
+
+### gradual sweeps:
+
+10 degree delta 
+200ms delay
+current draw : 250mA
+
+
+1 degree delta
+20ms delay
+current draw: 150mA
+
+30 degree delta 
+200ms delay 
+current: 700mA 
+
+60 degree delta
+200ms delay 
+current: 1.2A
+
+10 degree delta: 
+50ms delay
+current: 600mA
+
+20 degree delta
+50ms delay
+current: 1.3A 

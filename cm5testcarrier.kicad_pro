@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.0,
-          "height": 2.0,
-          "width": 4.0
+          "drill": 1.2,
+          "height": 1.9,
+          "width": 1.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -195,6 +195,7 @@
         0.0,
         0.2,
         0.4,
+        0.6,
         0.8,
         1.0,
         2.0,
@@ -500,42 +501,111 @@
       },
       {
         "diff_pair_gap": 0.1016,
-        "diff_pair_width": 0.27,
-        "name": "Ethernet Data",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "Power",
+        "diff_pair_width": 0.2,
+        "name": "CSI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "clearance": 0.2,
         "diff_pair_gap": 0.1016,
-        "diff_pair_width": 0.5,
+        "diff_pair_width": 0.2,
+        "name": "Ethernet Data",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "diff_pair_gap": 0.1016,
+        "diff_pair_width": 0.268,
         "name": "USB 2.0 Data",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2
       },
       {
         "diff_pair_gap": 0.1016,
-        "diff_pair_width": 0.27,
+        "diff_pair_width": 0.268,
         "name": "USB 3.0 Data",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+5V": "rgb(200, 0, 0)"
+    },
     "netclass_assignments": {
+      "/DPHY0_C_N": [
+        "CSI"
+      ],
+      "/DPHY0_C_P": [
+        "CSI"
+      ],
+      "/DPHY0_D0_N": [
+        "CSI"
+      ],
+      "/DPHY0_D0_P": [
+        "CSI"
+      ],
+      "/DPHY0_D1_N": [
+        "CSI"
+      ],
+      "/DPHY0_D1_P": [
+        "CSI"
+      ],
+      "/DPHY0_D2_N": [
+        "CSI"
+      ],
+      "/DPHY0_D2_P": [
+        "CSI"
+      ],
+      "/DPHY0_D3_N": [
+        "CSI"
+      ],
+      "/DPHY0_D3_P": [
+        "CSI"
+      ],
+      "/DPHY1_C_N": [
+        "CSI"
+      ],
+      "/DPHY1_C_P": [
+        "CSI"
+      ],
+      "/DPHY1_D0_N": [
+        "CSI"
+      ],
+      "/DPHY1_D0_P": [
+        "CSI"
+      ],
+      "/DPHY1_D1_N": [
+        "CSI"
+      ],
+      "/DPHY1_D1_P": [
+        "CSI"
+      ],
+      "/DPHY1_D2_N": [
+        "CSI"
+      ],
+      "/DPHY1_D2_P": [
+        "CSI"
+      ],
+      "/DPHY1_D3_N": [
+        "CSI"
+      ],
+      "/DPHY1_D3_P": [
+        "CSI"
+      ],
       "/USB3-0-D_N": [
         "USB 3.0 Data"
       ],
@@ -613,7 +683,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "cm5testcarrier.dsn",
-      "step": "",
+      "step": "cm5testcarrier.step",
       "svg": "",
       "vrml": ""
     },
