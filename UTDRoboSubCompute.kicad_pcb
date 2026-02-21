@@ -262,7 +262,7 @@
 	(net 117 "/DPHY0_D0_N")
 	(net 118 "unconnected-(U3-~{FAULT}-Pad4)")
 	(net 119 "unconnected-(Module1B-HDMI1_TX2_N-Pad148)")
-	(net 120 "unconnected-(Module1A-VBAT-Pad76)")
+	(net 120 "/VBAT")
 	(net 121 "/DPHY0_C_N")
 	(net 122 "/SD_PWR_ON")
 	(net 123 "/p+2")
@@ -512,7 +512,7 @@
 		(property ki_fp_filters "CONN2_2091-1372_WAG")
 		(path "/63d78587-a55b-4fa9-94bb-186361adb3b4")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.877 -0.527)
@@ -919,9 +919,9 @@
 			)
 		)
 		(property ki_fp_filters "R?Array?SIP*")
-		(path "/db585e65-a563-4c26-b729-7b2564208598")
+		(path "/3c14e81b-996a-4ce5-86c0-84352b11dac2")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 0)
@@ -1414,7 +1414,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/bc3b3f26-fc9d-401b-a254-f9efd4219225")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -1616,7 +1616,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d59ae9a7-a304-4655-9e24-a57e93ef912c")
+			(uuid "f71bab10-0f37-47a2-aae3-cb0873b91296")
 			(effects
 				(font
 					(size 1 1)
@@ -1629,7 +1629,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "172aabfa-024f-425f-a4dd-ffb682868ab0")
+			(uuid "557b8aae-d177-4bfb-afa7-4b7abe9c78f3")
 			(effects
 				(font
 					(size 1 1)
@@ -1642,7 +1642,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "de1c7c66-c332-4cea-bccd-8cdd314c97d8")
+			(uuid "f5e4a417-41c5-4e1d-8ab3-a3bcf648304a")
 			(effects
 				(font
 					(size 1 1)
@@ -1655,7 +1655,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5178411-917c-4c3f-ac99-ea57e5c9990e")
+			(uuid "f73369c0-4748-42d9-b309-19311a5600e8")
 			(effects
 				(font
 					(size 1 1)
@@ -1668,7 +1668,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c68b1d62-3d86-4e4f-8905-75d737c57593")
+			(uuid "4f1203a0-b2f4-4422-baff-148e94e2af1a")
 			(effects
 				(font
 					(size 1 1)
@@ -1681,7 +1681,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "25e3a9e5-ba0c-470c-a51f-c6f0fa15f47a")
+			(uuid "2fbcfe1f-a289-4d68-abcb-0d6fffc0b833")
 			(effects
 				(font
 					(size 1 1)
@@ -1691,7 +1691,7 @@
 		)
 		(path "/6b0cde8c-d8eb-458f-ba0c-99a56f1a9be8")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 4.1 0)
@@ -1701,7 +1701,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3dfd2b9f-e18b-4833-beda-740868b32d24")
+			(uuid "c24dd721-205f-432e-b0ca-dd7abc81fbb8")
 		)
 		(fp_line
 			(start 4 0)
@@ -1711,7 +1711,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "83963010-882a-4eb3-9d4d-b9f4f405e0ea")
+			(uuid "49795cbe-7544-4b08-9132-22345135925f")
 		)
 		(fp_line
 			(start 3.59 -2.7)
@@ -1721,7 +1721,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4178c476-72b7-4568-abde-84eab20d063b")
+			(uuid "9a644a6d-5751-4420-8cbc-effd602a6d5e")
 		)
 		(fp_line
 			(start -6.83 4.5)
@@ -1731,7 +1731,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1b65f75c-71ad-433b-af6b-5c9b8e9d278d")
+			(uuid "522eb431-6107-4744-9e17-028530d8fd14")
 		)
 		(fp_line
 			(start -6.83 -2.7)
@@ -1741,7 +1741,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "597a6536-d754-4d20-890b-eeda00ce393e")
+			(uuid "cbe27522-ae04-4b8a-a55e-ddca54794c60")
 		)
 		(fp_line
 			(start -10.83 -2.7)
@@ -1751,7 +1751,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "dcfeb28e-b841-4e7a-9a0e-83365f9f71bc")
+			(uuid "8f8e907c-5db2-4c87-b05f-44ead8e6abfb")
 		)
 		(fp_line
 			(start -20.61 4.5)
@@ -1761,7 +1761,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4901dc2b-0f37-4f3d-a3df-152e9813cca1")
+			(uuid "d8d526ab-e9a0-4d84-ad40-4f031c7e9357")
 		)
 		(fp_line
 			(start -20.61 -2.7)
@@ -1771,7 +1771,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0508c427-9a69-4aed-8657-a6af5aa19d8a")
+			(uuid "fc60df92-b63f-4604-8205-6f12e66ba34a")
 		)
 		(fp_arc
 			(start 4.1 0)
@@ -1782,7 +1782,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "15a104cc-e8d1-405b-b92d-9f63dcb630de")
+			(uuid "a14d44b1-fe75-46b2-80b3-9c357af5d253")
 		)
 		(fp_arc
 			(start 4 0)
@@ -1793,7 +1793,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c0507c22-8d61-481a-a3bd-81bc6210e5b5")
+			(uuid "979496a0-a9a5-43db-9342-7a9b762ceee2")
 		)
 		(fp_line
 			(start 4.59 5.925)
@@ -1803,7 +1803,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "13d3c4a4-8250-4e89-bd9c-3179f79669af")
+			(uuid "fb2bb122-546b-4db3-aa59-45e9f64abb1f")
 		)
 		(fp_line
 			(start 4.59 -4.125)
@@ -1813,7 +1813,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bfd730fe-7206-4673-9c2f-f7bc4c3a8e10")
+			(uuid "c767f15d-6cb0-47c9-b64f-a853c6fd47b4")
 		)
 		(fp_line
 			(start -21.61 5.925)
@@ -1823,7 +1823,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "93d9897e-6853-480a-9be6-3aa15cdf2046")
+			(uuid "de114712-6b5b-48dd-9583-189214cbfe2d")
 		)
 		(fp_line
 			(start -21.61 -4.125)
@@ -1833,7 +1833,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "dd686d54-24bb-4c8d-bcc2-aad2f339961a")
+			(uuid "775952ff-6c28-48ef-bc74-89ff13bf93c7")
 		)
 		(fp_line
 			(start 3.59 4.5)
@@ -1843,7 +1843,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7fd3d729-5038-4cc6-bda9-3e901d427040")
+			(uuid "1239ebaf-209e-4739-bab6-3307315fbfce")
 		)
 		(fp_line
 			(start 3.59 -2.7)
@@ -1853,7 +1853,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9e941116-5299-416e-addb-8846fe816735")
+			(uuid "03876f79-d37d-471c-b362-fa95dd2d65e8")
 		)
 		(fp_line
 			(start -20.61 4.5)
@@ -1863,7 +1863,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "dfc9613a-e905-4dc2-b6f8-a3d655bba3a7")
+			(uuid "03a84884-8d4d-4bae-a9a8-5e887490a04b")
 		)
 		(fp_line
 			(start -20.61 -2.7)
@@ -1873,7 +1873,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "9ad135b4-7709-46f8-9eb0-1a5eb6c15899")
+			(uuid "8fc6a9a2-af33-448b-9297-92d249ead883")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -8.51 0.9 180)
@@ -2172,7 +2172,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/521ac874-097e-4bb0-9479-4b3c39d03ad3")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -2500,7 +2500,7 @@
 		)
 		(path "/611027cc-a225-4e6b-898b-0e28374a6bd1")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -2831,7 +2831,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1bb47c40-61e8-4d3e-b1f9-3d7a2bf2170e")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -3160,7 +3160,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ff48ab62-c77b-4745-ab14-269e318e6c7a")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -3491,7 +3491,7 @@
 		)
 		(path "/def36ccd-f76b-4a45-baff-166585e72398")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.461 3.8608)
@@ -4065,7 +4065,7 @@
 		)
 		(path "/f00d8dd3-4e04-44c2-acfa-788affbcda48")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.5 -48)
@@ -5066,9 +5066,9 @@
 			(at 1.04 -16.5 270)
 			(size 0.2 0.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 120 "unconnected-(Module1A-VBAT-Pad76)")
+			(net 120 "/VBAT")
 			(pinfunction "VBAT")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(uuid "260a5b9d-1f61-4f5f-88ec-3710d87b5710")
 		)
 		(pad "77" smd rect
@@ -6433,7 +6433,7 @@
 		)
 		(path "/15c59051-65ff-4548-aeaa-c4be23fbd64e")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.461 3.8608)
@@ -6926,7 +6926,7 @@
 		)
 		(path "/a9b06477-a38e-441f-a934-4227d5278c67")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 5.25 -1)
@@ -8102,7 +8102,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f0a7d1ef-ef26-4407-80c2-9c8b234077ac")
+			(uuid "e9bc296c-bf1a-40e8-b943-25536642a2c1")
 			(effects
 				(font
 					(size 1 1)
@@ -8115,7 +8115,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b9d39fea-7051-4def-8d01-ae47d8567dcd")
+			(uuid "38d61c5b-557b-47f6-b3b0-4f10e0febb03")
 			(effects
 				(font
 					(size 1 1)
@@ -8128,7 +8128,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "321bd802-f7dd-478d-9fc8-1361727e3b6e")
+			(uuid "5e28c657-b290-448a-ae9f-5f03b784a19c")
 			(effects
 				(font
 					(size 1 1)
@@ -8141,7 +8141,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b77f43cc-81cb-4919-ba97-4903efbaef39")
+			(uuid "0a301207-8894-4216-90a9-50d2221f5185")
 			(effects
 				(font
 					(size 1 1)
@@ -8154,7 +8154,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a905a66c-3cee-456d-8587-446b7b2a709b")
+			(uuid "cf8e7ac3-45ca-4d1e-93bd-e8996c1c45d4")
 			(effects
 				(font
 					(size 1 1)
@@ -8164,7 +8164,7 @@
 		)
 		(path "/91d8dc74-d7a8-412c-841f-ed0711700084")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 3.59 -2.7)
@@ -8174,7 +8174,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6bca3be7-b3b9-4580-a016-c79623f0e28f")
+			(uuid "e1e3c20d-4148-42f8-a901-d6e4f0107315")
 		)
 		(fp_line
 			(start 0 -3.3)
@@ -8184,7 +8184,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5dec5fb0-8dab-4b6f-90b4-04ddd4dad72c")
+			(uuid "28122f60-867a-4fa0-b29d-06699b68b7b6")
 		)
 		(fp_line
 			(start 0 -3.4)
@@ -8194,7 +8194,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ac741596-bcc3-40c4-8688-286d5d1f9015")
+			(uuid "b5a19a10-1a12-457a-a2a2-8dfd8552fda0")
 		)
 		(fp_line
 			(start -7 4.5)
@@ -8204,7 +8204,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f52ed400-6a8e-468f-a556-1462e99243a5")
+			(uuid "8be71d8d-fd14-4c18-a7e4-8d300cc14d4e")
 		)
 		(fp_line
 			(start -7 -2.7)
@@ -8214,7 +8214,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e113c41d-1ffe-4be3-ab5c-9a869c578b6c")
+			(uuid "47f437e5-574b-4218-85e1-c4ce6d276874")
 		)
 		(fp_line
 			(start -11 -2.7)
@@ -8224,7 +8224,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "39ad7e24-91f1-4570-987d-9ced9df40c61")
+			(uuid "db38a0bf-66a2-481c-afa0-bb9b6023fe9e")
 		)
 		(fp_line
 			(start -20.61 4.5)
@@ -8234,7 +8234,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fc60fb74-2b50-40ba-af2d-880af096ff4c")
+			(uuid "9ea6fda7-376f-476c-924b-924e4c3fe70c")
 		)
 		(fp_line
 			(start -20.61 -2.7)
@@ -8244,7 +8244,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4bb17661-b742-4fd4-ba49-e96fcefd8817")
+			(uuid "5ecee7de-9539-4262-a556-cd656b7f980b")
 		)
 		(fp_arc
 			(start 0 -3.3)
@@ -8255,7 +8255,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9e54b47e-ca8f-40db-bd57-fc6f84585a49")
+			(uuid "eb390af6-b942-44e2-9e60-2d91e8f97923")
 		)
 		(fp_arc
 			(start 0 -3.4)
@@ -8266,7 +8266,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6e55a6a1-5e1e-4c0f-b8c6-519808655f3c")
+			(uuid "6ee9bbb0-8509-46d8-b2bd-c811528cbad2")
 		)
 		(fp_line
 			(start 4.59 5.925)
@@ -8276,7 +8276,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "71f04ec4-4477-482c-956a-da5af2274348")
+			(uuid "be10fae4-d54b-4837-ad63-2403b199e7b9")
 		)
 		(fp_line
 			(start 4.59 -4.125)
@@ -8286,7 +8286,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "801a6aa2-6577-4452-8516-e55de26372d5")
+			(uuid "d27bbab2-29d0-4fe2-b2d5-a5a11082041a")
 		)
 		(fp_line
 			(start -21.61 5.925)
@@ -8296,7 +8296,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3f3dda5f-037d-4b7a-a0a1-72562405fc92")
+			(uuid "d2692b8b-1c4d-4f42-90ba-67400053d481")
 		)
 		(fp_line
 			(start -21.61 -4.125)
@@ -8306,7 +8306,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e44be74f-0a2c-41a7-8749-34dc19f07b14")
+			(uuid "18b3031f-c9dd-4c56-9687-c32eb1236bb6")
 		)
 		(fp_line
 			(start 3.59 4.5)
@@ -8316,7 +8316,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "520260cb-f8c7-4118-9c8a-78b944761b04")
+			(uuid "5eadc58f-65cb-4004-b3da-357d6c8c69d3")
 		)
 		(fp_line
 			(start 3.59 -2.7)
@@ -8326,7 +8326,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7b4b0682-cc24-4baf-ae47-23104e4e6e55")
+			(uuid "1a06782a-ff78-4ee3-befd-235c031eb446")
 		)
 		(fp_line
 			(start -20.61 4.5)
@@ -8336,7 +8336,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e04255bc-d5a0-4d5e-b5ce-fc89591ddfc1")
+			(uuid "36a84065-b569-4a88-99ea-f5678cb921d8")
 		)
 		(fp_line
 			(start -20.61 -2.7)
@@ -8346,7 +8346,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "77c45cd9-6d7d-49b5-b037-8e359ac4d7a5")
+			(uuid "c7ffa22f-d29e-4b49-b32e-f903e9384a33")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -8.51 0.9 180)
@@ -8701,7 +8701,7 @@
 		(property ki_fp_filters "R?Array?SIP*")
 		(path "/de8bc0a3-0969-43fe-8673-eb4dcb43b877")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 0)
@@ -9168,7 +9168,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/4fa07e63-5189-48c6-82b1-f03d3e4ae1d0")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -9486,7 +9486,7 @@
 		(property ki_fp_filters "CONN2_2091-1372_WAG")
 		(path "/a7c95ae5-f65d-4a55-88ad-cf7117afbb47")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -5.377001 -0.527)
@@ -9893,9 +9893,9 @@
 			)
 		)
 		(property ki_fp_filters "R?Array?SIP*")
-		(path "/d6709dea-c6d3-4b31-bdd4-d32b30ab4736")
+		(path "/9c8aedb7-878a-4af9-9a63-434f7d3cc7b0")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 0)
@@ -10299,7 +10299,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/36d1f8bb-bab0-474f-bedb-870e5c7f23cc")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -10512,7 +10512,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/6d380db0-a865-4143-b751-2a143764141b")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -2.275 0)
@@ -10818,7 +10818,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/dd6033c9-cdd5-4ec3-8ff2-67389fcc8074")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -11046,7 +11046,7 @@
 		)
 		(path "/d7e1e5b9-f71e-42f6-a271-813300b2033d")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -11365,7 +11365,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/d95b6a67-f56e-41b8-874b-814d65889290")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -11593,9 +11593,9 @@
 			)
 		)
 		(property ki_fp_filters "R?Array?SIP*")
-		(path "/d0d37a20-0afc-4b12-8034-baf6cc7c52b4")
+		(path "/e298eb75-9cb0-4d4b-80fc-80e6468524d4")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.6 0)
@@ -12012,7 +12012,7 @@
 		)
 		(path "/c395b764-5ed1-4bbe-946b-580da44cb2b5")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.461 3.8608)
@@ -12505,7 +12505,7 @@
 		)
 		(path "/646e4a0a-197e-47b2-ac7f-ae044f2683c5")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -1.013 0.842)
@@ -12857,7 +12857,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/288b912e-4049-4b23-abd3-335043bd3aa2")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -13186,7 +13186,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a99380e5-0536-4105-91b0-31af568fb18f")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -13593,7 +13593,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c44f7aaf-d68a-4b3c-b50c-12942e83194e")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -13910,7 +13910,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/ae205d68-e583-4457-a1e3-fe807bd9d411")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 3.92 -1.38)
@@ -14402,7 +14402,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/8ffe6d17-39e6-4bf9-8655-dce6fa96faa8")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -14719,7 +14719,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/8418a71a-9588-42ef-892b-5286e81b53b4")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -14950,7 +14950,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/5da16a70-bd00-43c5-8564-0f7bf124b8c9")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 49.64)
@@ -15644,7 +15644,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "35c35ff0-b76e-455e-8053-72879e9931f7")
+			(uuid "adf6cabd-9c41-457e-bb0a-7e700fcebd12")
 			(effects
 				(font
 					(size 1 1)
@@ -15657,7 +15657,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6ce673d6-d404-40a0-bef0-5fc1f6cfb562")
+			(uuid "002cc8dd-8a31-484a-89f6-555ab415d08c")
 			(effects
 				(font
 					(size 1 1)
@@ -15670,7 +15670,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7c4cc087-6def-45ed-9d2f-20abebca9c91")
+			(uuid "dca2421a-6cd2-414c-ac13-220bb13426c1")
 			(effects
 				(font
 					(size 1 1)
@@ -15683,7 +15683,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "42afa403-7b55-4423-b6b1-5909f8aeef80")
+			(uuid "cb8f7d05-58d9-43ad-8ad3-328dca1dd888")
 			(effects
 				(font
 					(size 1 1)
@@ -15696,7 +15696,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "52785bd3-9919-497a-9e14-7fd6d0da926d")
+			(uuid "e18f4988-37b6-4d61-907b-cb04954e1cd9")
 			(effects
 				(font
 					(size 1 1)
@@ -15706,7 +15706,7 @@
 		)
 		(path "/08c5693f-0fde-49d2-9ee5-a91c38ab7c7e")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 3.59 -2.7)
@@ -15716,7 +15716,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "87936148-33f4-4249-afac-a70d5e246da5")
+			(uuid "03f2a6e9-ffef-411f-bb24-d3e804675cb5")
 		)
 		(fp_line
 			(start 0 -3.3)
@@ -15726,7 +15726,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e8475761-9907-4f9c-83df-cc56b69d4169")
+			(uuid "d0f4c386-a4fc-4ab4-9e54-0239bd5d66cc")
 		)
 		(fp_line
 			(start 0 -3.4)
@@ -15736,7 +15736,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5f93a177-2d3f-47fb-9aff-2cb1fcfe1367")
+			(uuid "3ffe50b1-a7f0-4982-8067-76744fedd5b5")
 		)
 		(fp_line
 			(start -7 4.5)
@@ -15746,7 +15746,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b60f3e23-2340-48ce-8625-6389c982c92b")
+			(uuid "bb3fa747-d00a-42f6-92e4-9726e388ce9c")
 		)
 		(fp_line
 			(start -7 -2.7)
@@ -15756,7 +15756,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0cd91224-9ac6-4f4c-aafe-7e692413b19a")
+			(uuid "c2e942ca-6bf1-44d1-9bb7-f04e43b1fde5")
 		)
 		(fp_line
 			(start -11 -2.7)
@@ -15766,7 +15766,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3dca2556-2082-4df7-bc90-d0074aab41e0")
+			(uuid "f9d23797-4097-4ef0-8a08-3eaaab193c11")
 		)
 		(fp_line
 			(start -20.61 4.5)
@@ -15776,7 +15776,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d712a562-594b-4de6-bbdd-36e4ae0b3b4d")
+			(uuid "782372ca-c937-476c-a2f6-c01bceda1d34")
 		)
 		(fp_line
 			(start -20.61 -2.7)
@@ -15786,7 +15786,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4a6ddeaf-58ee-46a3-b3de-64aa4166c7e1")
+			(uuid "fcf76701-f99d-4663-9151-79de60250cb2")
 		)
 		(fp_arc
 			(start 0 -3.3)
@@ -15797,7 +15797,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4f86b34a-e1e3-49e7-a758-1eccc5f12ff6")
+			(uuid "53a0e1e3-30fe-4662-abca-5453225e0b1e")
 		)
 		(fp_arc
 			(start 0 -3.4)
@@ -15808,7 +15808,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "11aaaa00-8f12-4e73-8f2c-3a840c79f5df")
+			(uuid "ba13a072-ee9f-4284-b880-065eddb1af77")
 		)
 		(fp_line
 			(start 4.59 5.925)
@@ -15818,7 +15818,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9737be3c-e338-4128-93fb-0bbd89e58789")
+			(uuid "27e9ac50-599e-487e-a099-b1ff3f4548aa")
 		)
 		(fp_line
 			(start 4.59 -4.125)
@@ -15828,7 +15828,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "edf9d50e-209e-453c-b182-efdec3e447ae")
+			(uuid "ce0ec377-81e8-45d4-aea3-cebbca1a304c")
 		)
 		(fp_line
 			(start -21.61 5.925)
@@ -15838,7 +15838,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "cdcd3b54-f624-44c1-95e9-433b6994637d")
+			(uuid "6dd76807-2cf4-447f-bcc0-95c4bdf67a81")
 		)
 		(fp_line
 			(start -21.61 -4.125)
@@ -15848,7 +15848,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "fb5b8f19-5143-4db9-b27d-5c802c77f5b8")
+			(uuid "d898658d-ace0-4882-9d17-70810e99bfd7")
 		)
 		(fp_line
 			(start 3.59 4.5)
@@ -15858,7 +15858,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "0348c338-607f-41b4-b559-ba0bdc4cb348")
+			(uuid "09ba8bda-54c1-40fe-9708-4a813d3db312")
 		)
 		(fp_line
 			(start 3.59 -2.7)
@@ -15868,7 +15868,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f5d9e923-a31a-489e-852c-29d73bedd444")
+			(uuid "6a0cb3f5-a411-42c5-85e7-0290191fd3c8")
 		)
 		(fp_line
 			(start -20.61 4.5)
@@ -15878,7 +15878,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ce6a3aa5-cf9e-46a6-a9e4-560349e74b72")
+			(uuid "e7335a55-273d-4273-8671-c78b0e49ee8f")
 		)
 		(fp_line
 			(start -20.61 -2.7)
@@ -15888,7 +15888,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6714f15a-9ab9-4535-8846-cd0d4c3f6dc8")
+			(uuid "0ea156f8-1619-4588-b6d1-60493d2bf3b2")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -8.51 0.9 180)
@@ -16177,7 +16177,7 @@
 		)
 		(path "/ed80a415-b3d9-423c-965f-dba7c2382afc")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -1.013 0.842)
@@ -16477,7 +16477,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/924bea06-b997-42bc-bf53-4f2741b5977f")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -16795,7 +16795,7 @@
 		(property ki_fp_filters "CONN2_2091-1372_WAG")
 		(path "/16133db0-32a9-4f54-a8e0-d74ad15756bb")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -5.377001 -0.527)
@@ -17024,7 +17024,7 @@
 		(at 108.78 60.24 180)
 		(descr "3016 (1206) _1")
 		(tags "LED")
-		(property "Reference" "Pwr"
+		(property "Reference" "Pwr_Led1"
 			(at 3.97 0.18 0)
 			(layer "F.SilkS")
 			(uuid "dde90aaa-352f-427b-afaf-032e1ebd7d22")
@@ -17151,7 +17151,7 @@
 		)
 		(path "/6f531d57-3514-43cb-ac80-d6b2bd5fd2c2")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.5 -1.225)
@@ -17373,7 +17373,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/04b6f3d1-00ed-4a32-8a19-375d43ccc177")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -2.275 0)
@@ -17743,7 +17743,7 @@
 		)
 		(path "/4ff4d2c8-0361-435d-91e6-78d0f7462d82")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.325 1.45)
@@ -18148,7 +18148,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/762d35c1-bfee-4c0b-95ca-7d892ccbc790")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -18413,7 +18413,7 @@
 		)
 		(path "/251bd8d5-ec85-4a72-80c8-8b8633688432")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 5.25 -1)
@@ -19021,7 +19021,7 @@
 		)
 		(path "/00000000-0000-0000-0000-00005d66d4e4")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.875 -1.514)
@@ -19419,7 +19419,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f23ea820-5e68-4147-8647-2bfa45e7dd06")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.35 3.4)
@@ -19712,7 +19712,7 @@
 		(at 108.8 57.5 180)
 		(descr "150120GS75000")
 		(tags "LED")
-		(property "Reference" "Act"
+		(property "Reference" "Act_LED1"
 			(at 3.97 0.1 180)
 			(layer "F.SilkS")
 			(uuid "0d4f73ce-8b89-48e1-b46e-5db7feada69e")
@@ -19839,7 +19839,7 @@
 		)
 		(path "/28993198-7993-4fe7-9da4-cf66dd140802")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.5 -1.125)
@@ -20179,7 +20179,7 @@
 		)
 		(path "/c70e528d-6c1f-41c5-b131-1185e53a5b52")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.461 3.8608)
@@ -20736,7 +20736,7 @@
 		)
 		(path "/8aeced3b-259c-42e7-b360-ef326ff1891f")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -20951,7 +20951,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/71c60aa2-1967-451b-8f8b-6318253b631d")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center -2.275 0)
@@ -21217,7 +21217,7 @@
 		)
 		(path "/6df96d7b-5dd1-4a98-9c26-7b417c8fecf9")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 7.04 -8.45)
@@ -21757,7 +21757,7 @@
 		)
 		(path "/fd09928c-2c03-4bc5-be39-9582f111f20f")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.235 19.69)
@@ -22284,7 +22284,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/8126c9a4-d5a2-44de-af06-d1d961304081")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -22500,7 +22500,7 @@
 		)
 		(path "/cb72891e-0e79-4bc2-a219-144277f83f94")
 		(sheetname "/")
-		(sheetfile "cm5testcarrier.kicad_sch")
+		(sheetfile "UTDRoboSubCompute.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.675 -4.8)
@@ -27859,6 +27859,14 @@
 		(layer "F.Cu")
 		(net 4)
 		(uuid "faad7bd5-246c-45c2-bb71-1cde10eafc67")
+	)
+	(segment
+		(start 174.4 99.9)
+		(end 174.4 103.088933)
+		(width 0.8)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "081ee8dc-be41-4b66-ba4b-bd9649f7885c")
 	)
 	(segment
 		(start 168.9625 102.1)
@@ -45804,7 +45812,7 @@
 		)
 		(polygon
 			(pts
-				(xy 95.6 55.1) (xy 95.6 155.3) (xy 196 155.3) (xy 195.820489 65.36475) (xy 195.8 55.1)
+				(xy 194.99 55.1) (xy 95.6 55.1) (xy 95.6 155.3) (xy 196 155.3) (xy 195.820489 65.36475) (xy 195.8 55.1)
 			)
 		)
 		(filled_polygon

@@ -476,7 +476,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "cm5testcarrier.kicad_pro",
+    "filename": "UTDRoboSubCompute.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -677,7 +677,7 @@
   },
   "pcbnew": {
     "last_paths": {
-      "gencad": "",
+      "gencad": "UTDRoboSubCompute.cad",
       "idf": "",
       "netlist": "",
       "plot": "",
