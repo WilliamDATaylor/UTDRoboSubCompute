@@ -39,6 +39,7 @@ Designs are heavily influenced by the reference RPI CM5 IO board.
 ### Servo (I<sup>2</sup>c) Controller: 
 ![KiCad Schematic for Servo Controller](https://pics.wdat-homelab.xyz/u/57sNm1.png)
 
+
 Manufacturer: NXP
 
 IC: PCA9685PW, 118
@@ -57,6 +58,8 @@ The max current draw for each set of servo "banks" is *5A*. Realistically, the s
 
 [Servos Injora 35KG Brushless Servos](https://www.amazon.com/dp/B0B56SN46D)
 
+[Back to Top](#documentation-overview)
+
 ### General Purpose Input Output (GPIO)
 ![KiCad Schematic for 40-Pin GPIO Header](https://pics.wdat-homelab.xyz/u/mBmlh4.png)
 
@@ -65,6 +68,8 @@ The board uses standard RPI GPIO pin outs.
 
 Details about the GPIO for the CM5 can be found on page 12 of the manual.
 Probably obvious, but it does need to be said: "Don’t exceed 50 mA for total current load on all 28 GPIO pins."
+
+[Back to Top](#documentation-overview)
 
 ### CSI/DSI Connectors
 ![KiCad Schematic for Dual CSI connectors](https://pics.wdat-homelab.xyz/u/YeA2cA.png)
@@ -76,6 +81,7 @@ Model Number: FH12-22S-0.5SH(55)
 Both CSI connectors are configured to be enabled out of the box (deviating from the CM5 design). This may break some HAT compatibility because the CSI1 uses the I<sup>2</sup>c lines normally used for identifying HATs (see pages 10 & 11 of the CM5 docs). Additionally, this will prevent GPIO 0 & 1 from being used as regular pins. (It is entirely possible that this will not cause issues, but your mileage may vary.)
 Both connectors are usable as DSI connectors as well. 
 
+[Back to Top](#documentation-overview)
 
 ### Ethernet
 ![KiCad Schematic for ethernet connectivity](https://pics.wdat-homelab.xyz/u/UwwTfQ.png)
@@ -91,6 +97,8 @@ Two ESD protection diodes were used to minimize the impact of static. Our use ca
 
 IC: TPD4E05U06QDQARQ1
 Manufacturer: Texas Instraments
+
+[Back to Top](#documentation-overview)
 
 ### SD card/TransFlash boot
 ![KiCad Schematic for SD Card](https://pics.wdat-homelab.xyz/u/h18c91.png)
@@ -109,6 +117,8 @@ Model Number: RT9742GGJ5
 
 This will only work when a CM5 Lite board is in use; if a non-Lite CM5 is used, this can be omitted. 
 
+[Back to Top](#documentation-overview)
+
 ### Power
 ![KiCad Schematic for the wago power connectors](https://pics.wdat-homelab.xyz/u/RiyaF4.png)
 
@@ -122,6 +132,7 @@ Manufacturer: Wago
 
 Model Number: 2091-1372
 
+[Back to Top](#documentation-overview)
 
 ### USB 2.0
 ![KiCad Schematic for USB 2.0](https://pics.wdat-homelab.xyz/u/2EP8gA.png)
@@ -142,12 +153,16 @@ IC: AP22653W6-7
 
 Manufacturer: Diodes Inc.
 
+[Back to Top](#documentation-overview)
+
 ### USB 3.0
 ![KiCad Schematic of USB 3.0 Ports](https://pics.wdat-homelab.xyz/u/CMJG52.png)
 
 USB 3.0_1 is P/N swapped to avoid using vias or messy fanouts 
 
 As previously mentioned, the USB ports share a current regulator. 
+
+[Back to Top](#documentation-overview)
 
 ### CM5
 ![KiCad Schematic for Amphenol FFC Connectors for CM5](https://pics.wdat-homelab.xyz/u/SphRqF.png)
@@ -157,12 +172,16 @@ The CM5 is placed with the wireless antenna pointing inward. As this is meant to
 
 There is an included disable wifi/bluetooth header if necessary for testing.
 
+[Back to Top](#documentation-overview)
+
 ### Fan
 ![KiCad Schematic for Fan Header](https://pics.wdat-homelab.xyz/u/2RXl0h.png)
 
 Optional fan header. The schematic uses a generic PC fan header, but any pins with 2.54 mm pitch will work.
 
 Max power draw: 12w 
+
+[Back to Top](#documentation-overview)
 
 ### Sizing and Dimensions
 
@@ -172,6 +191,7 @@ The PCB itself is roughly a 100mm x 100mm square (real value 100mm x 100.08mm), 
 
 A 3D model has been included in this GitHub repository for reference. 
 
+[Back to Top](#documentation-overview)
 
 ### Trace Routing
 
@@ -216,6 +236,8 @@ Height: 0.2mm
 
 
 All differential traces were given a clearance standard of 4-5 Width of clearance (exluding IC escape). 
+
+[Back to Top](#documentation-overview)
 
 ### Additional Details
 
