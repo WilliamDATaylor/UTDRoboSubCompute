@@ -5,7 +5,9 @@ This will compete in the [2026 MateROV competition](https://materovcompetition.o
 
 
 
-![KiCad 3D render of the PCB ](https://pics.wdat-homelab.xyz/u/gkNJ3p.png)
+![KiCad 3D render of the PCB ](https://pics.wdat-homelab.xyz/u/444RY1.png)
+
+![Kicad PCB View](https://pics.wdat-homelab.xyz/u/YMBu2W.png)
 
 Designs are heavily influenced by the reference RPI CM5 IO board.
 
@@ -29,12 +31,13 @@ Designs are heavily influenced by the reference RPI CM5 IO board.
 8. [CM5](#cm5)
 9. [Fan](#fan)
 10. [Sizing and dimensions](#sizing-and-dimensions)
-11. [Additional Details](#additional-details)
+11. [Trace Routing](#trace-routing)
+12. [Additional Details](#additional-details)
 
 
 
 ### Servo (I<sup>2</sup>c) Controller: 
-![KiCad Schematic for Servo Controller](https://pics.wdat-homelab.xyz/u/i4zgsi.png)
+![KiCad Schematic for Servo Controller](https://pics.wdat-homelab.xyz/u/57sNm1.png)
 
 Manufacturer: NXP
 
@@ -75,7 +78,7 @@ Both connectors are usable as DSI connectors as well.
 
 
 ### Ethernet
-![KiCad Schematic for ethernet connectivity](https://pics.wdat-homelab.xyz/u/KgqZxa.png)
+![KiCad Schematic for ethernet connectivity](https://pics.wdat-homelab.xyz/u/UwwTfQ.png)
 
 Manufacturer: ABRACON
 
@@ -90,7 +93,7 @@ IC: TPD4E05U06QDQARQ1
 Manufacturer: Texas Instraments
 
 ### SD card/TransFlash boot
-![KiCad Schematic for SD Card](https://pics.wdat-homelab.xyz/u/DqQsOR.png)
+![KiCad Schematic for SD Card](https://pics.wdat-homelab.xyz/u/h18c91.png)
 Connector:
 
 Manufacturer: Amphenol
@@ -147,7 +150,7 @@ USB 3.0_1 is P/N swapped to avoid using vias or messy fanouts
 As previously mentioned, the USB ports share a current regulator. 
 
 ### CM5
-![KiCad Schematic for Amphenol FFC Connectors for CM5](https://pics.wdat-homelab.xyz/u/6KXRks.png)
+![KiCad Schematic for Amphenol FFC Connectors for CM5](https://pics.wdat-homelab.xyz/u/SphRqF.png)
 
 
 The CM5 is placed with the wireless antenna pointing inward. As this is meant to be installed inside a solid aluminum chassis and several meters underwater, Wi-Fi and Bluetooth connectivity have been disregarded. Further, the CM5 that we tested with does not support wireless, so your mileage may vary.
@@ -165,14 +168,58 @@ Max power draw: 12w
 
 The PCB itself is roughly a 100mm x 100mm square (real value 100mm x 100.08mm), with four M3 mounting holes 92mm center offset.
 
-![PCB Dimensions](https://pics.wdat-homelab.xyz/u/BImy2G.png)
+![PCB Dimensions](https://pics.wdat-homelab.xyz/u/7AKzme.png)
 
 A 3D model has been included in this GitHub repository for reference. 
 
 
+### Trace Routing
+
+#### Board Specifications 
+Copper Weight: 1 oz 
+
+Layers: 4
+ - Signaling
+ - Upper Ground Plane
+ - Lower Ground Plane
+ - Signaling & Power
+
+Manufacturer: JLCPCB
+
+Dialectric: FR4 TG135
+
+Signal Trace Spacing: 3\*width
+
+#### Differnetial Impedence Controlled Signals
+There are four major signaling standards used on this board that required controlled impedence in some form. They are:
+
+
+ - USB 3.0: 90Ω
+ - USB 2.0: 90Ω
+ - Ethernet: 100Ω
+ - MIPI (CSI/DSI): 100Ω
+
+Given the overlap between the standards, the choices for spacing, width, and clearance were divided into two groups: USB(90Ω) and Ethernet/MIPI(100Ω
+
+Dialectric Constant: 4.5
+Height: 0.2mm
+
+**Ethernet & MIPI**
+ - Trace Width: 0.2mm
+ - Trace Spacing: 0.1016mm (4 mils)
+ - Z(odd): 50.7457Ω
+
+**USB 3.0/USB 2.0**
+ - Trace Width: 0.268 mm
+ - Trace Spacing: 0.1016mm (4 mils)
+ - Z(odd): 45.0396Ω
+
+
+All differential traces were given a clearance standard of 4-5 Width of clearance (exluding IC escape). 
+
 ### Additional Details
 
-Additional SMD pads for optional bulk and decoupling capacitors have been added to the design if issues arise. 
+Additional SMD pads for optional bulk capacitors have been added to the design if issues arise. All SMD components are 0805
 
 During assembly, it is highly recommended to use the included interactive BOM (ibom.html).
 

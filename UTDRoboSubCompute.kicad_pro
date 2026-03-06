@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -105,7 +105,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -132,11 +132,11 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -193,6 +193,7 @@
       ],
       "track_widths": [
         0.0,
+        0.13,
         0.2,
         0.4,
         0.6,
@@ -500,42 +501,70 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.8,
         "diff_pair_gap": 0.1016,
         "diff_pair_width": 0.2,
         "name": "CSI",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
+        "clearance": 1.0,
         "diff_pair_gap": 0.1016,
         "diff_pair_width": 0.2,
         "name": "Ethernet Data",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "clearance": 0.4,
+        "name": "GPIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.13
       },
       {
-        "name": "Power",
+        "clearance": 0.5,
+        "name": "PWM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "diff_pair_gap": 0.1016,
-        "diff_pair_width": 0.268,
-        "name": "USB 2.0 Data",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2
       },
       {
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "clearance": 0.4,
+        "name": "SD",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.13
+      },
+      {
+        "clearance": 1.34,
+        "diff_pair_gap": 0.1016,
+        "diff_pair_width": 0.268,
+        "name": "USB 2.0 Data",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2
+      },
+      {
+        "clearance": 1.34,
         "diff_pair_gap": 0.1016,
         "diff_pair_width": 0.268,
         "name": "USB 3.0 Data",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -605,6 +634,156 @@
       ],
       "/DPHY1_D3_P": [
         "CSI"
+      ],
+      "/GPIO0": [
+        "GPIO"
+      ],
+      "/GPIO1": [
+        "GPIO"
+      ],
+      "/GPIO10": [
+        "GPIO"
+      ],
+      "/GPIO11": [
+        "GPIO"
+      ],
+      "/GPIO12": [
+        "GPIO"
+      ],
+      "/GPIO13": [
+        "GPIO"
+      ],
+      "/GPIO14": [
+        "GPIO"
+      ],
+      "/GPIO15": [
+        "GPIO"
+      ],
+      "/GPIO16": [
+        "GPIO"
+      ],
+      "/GPIO17": [
+        "GPIO"
+      ],
+      "/GPIO18": [
+        "GPIO"
+      ],
+      "/GPIO19": [
+        "GPIO"
+      ],
+      "/GPIO2": [
+        "GPIO"
+      ],
+      "/GPIO20": [
+        "GPIO"
+      ],
+      "/GPIO21": [
+        "GPIO"
+      ],
+      "/GPIO22": [
+        "GPIO"
+      ],
+      "/GPIO23": [
+        "GPIO"
+      ],
+      "/GPIO24": [
+        "GPIO"
+      ],
+      "/GPIO25": [
+        "GPIO"
+      ],
+      "/GPIO26": [
+        "GPIO"
+      ],
+      "/GPIO27": [
+        "GPIO"
+      ],
+      "/GPIO3": [
+        "GPIO"
+      ],
+      "/GPIO4": [
+        "GPIO"
+      ],
+      "/GPIO5": [
+        "GPIO"
+      ],
+      "/GPIO6": [
+        "GPIO"
+      ],
+      "/GPIO7": [
+        "GPIO"
+      ],
+      "/GPIO8": [
+        "GPIO"
+      ],
+      "/GPIO9": [
+        "GPIO"
+      ],
+      "/SD_CLK": [
+        "SD"
+      ],
+      "/SD_CMD": [
+        "SD"
+      ],
+      "/SD_DAT0": [
+        "SD"
+      ],
+      "/SD_DAT1": [
+        "SD"
+      ],
+      "/SD_DAT2": [
+        "SD"
+      ],
+      "/SD_DAT3": [
+        "SD"
+      ],
+      "/Servo_PWM_0": [
+        "PWM"
+      ],
+      "/Servo_PWM_1": [
+        "PWM"
+      ],
+      "/Servo_PWM_10": [
+        "PWM"
+      ],
+      "/Servo_PWM_11": [
+        "PWM"
+      ],
+      "/Servo_PWM_12": [
+        "PWM"
+      ],
+      "/Servo_PWM_13": [
+        "PWM"
+      ],
+      "/Servo_PWM_14": [
+        "PWM"
+      ],
+      "/Servo_PWM_15": [
+        "PWM"
+      ],
+      "/Servo_PWM_2": [
+        "PWM"
+      ],
+      "/Servo_PWM_3": [
+        "PWM"
+      ],
+      "/Servo_PWM_4": [
+        "PWM"
+      ],
+      "/Servo_PWM_5": [
+        "PWM"
+      ],
+      "/Servo_PWM_6": [
+        "PWM"
+      ],
+      "/Servo_PWM_7": [
+        "PWM"
+      ],
+      "/Servo_PWM_8": [
+        "PWM"
+      ],
+      "/Servo_PWM_9": [
+        "PWM"
       ],
       "/USB3-0-D_N": [
         "USB 3.0 Data"
