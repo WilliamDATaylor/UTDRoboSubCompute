@@ -12356,343 +12356,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-		(layer "F.Cu")
-		(uuid "6384cff6-4f92-4c51-adbd-be1c5c5895bb")
-		(at 156.011 134.9544 180)
-		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
-		(tags "resistor handsolder")
-		(property "Reference" "R7"
-			(at 0 -1.65 180)
-			(layer "F.SilkS")
-			(uuid "e415d928-b373-40e0-9243-8f1b2beefa6b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 0 1.65 180)
-			(layer "F.Fab")
-			(uuid "a645638c-925e-442f-8a7a-b6da1f3d6e0f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Panasonic_03-31-2024_Resistor_Anti-Sulfur(ERJ-UP6D-Series).pdf"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8ef03e90-ee73-43b6-9d79-fd732bf8a6d4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "592cad8d-d64d-4171-9e50-2b73a1f67c79")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c6123add-6e4a-4807-b6ea-3a3d6829cd77")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DigiKey_PN" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2667bfd1-283e-4271-b80d-88ba1ecba0a8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser PN" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c90d491c-1b3a-413a-aa70-9b330be18069")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9b073e0f-e0f4-490f-a601-728fc05f3179")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "78301cf0-4247-4f42-8020-2b94f421b06f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3ed073a7-4e93-4b23-b9ef-e9c0ec23abff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" "667-ERJ-UP6D1002V"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ab22128f-aecb-4205-9928-52d8b94b83ab")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "38d20086-8233-4238-a9bd-a1d32b902806")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "digikey pn" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "08a6ea3b-1fe8-42fc-a5ed-f44f868d38ba")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "de8c4b29-c100-4e22-a849-5dca0dec28d5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(path "/d7e1e5b9-f71e-42f6-a271-813300b2033d")
-		(sheetname "/")
-		(sheetfile "UTDRoboSubCompute.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
-		(attr smd)
-		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start -0.227064 0.735)
-			(end 0.227064 0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9905bc39-cd51-4ed0-ad82-769749e99730")
-		)
-		(fp_line
-			(start -0.227064 -0.735)
-			(end 0.227064 -0.735)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8181ad2e-f5bd-4b43-9495-a5716576b719")
-		)
-		(fp_line
-			(start 1.85 0.95)
-			(end -1.85 0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "189998f9-030d-4bb4-bce7-fe642217026d")
-		)
-		(fp_line
-			(start 1.85 -0.95)
-			(end 1.85 0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "be9da9ca-f092-4d0a-9a30-efb23f8c9640")
-		)
-		(fp_line
-			(start -1.85 0.95)
-			(end -1.85 -0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "52ec0339-254d-4b0b-a358-21b523d20f44")
-		)
-		(fp_line
-			(start -1.85 -0.95)
-			(end 1.85 -0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "97ff087b-2aa1-44e2-916a-4273ca683bc6")
-		)
-		(fp_line
-			(start 1 0.625)
-			(end -1 0.625)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "131ec7e0-71b2-4e0e-a7c6-c8b40ffdbaa1")
-		)
-		(fp_line
-			(start 1 -0.625)
-			(end 1 0.625)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a299ccc7-fc0b-4db0-b719-95c51f355a18")
-		)
-		(fp_line
-			(start -1 0.625)
-			(end -1 -0.625)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ab3053c2-6a10-499c-9420-3ca926f4d82b")
-		)
-		(fp_line
-			(start -1 -0.625)
-			(end 1 -0.625)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4f7c194e-240a-40ac-bc02-ede75adb7e90")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(uuid "760236df-629e-43ac-bb95-4956f82935aa")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -1 0 180)
-			(size 1.2 1.4)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.208333)
-			(net "GND")
-			(pinfunction "1_1")
-			(pintype "passive")
-			(uuid "11a4f5cf-2194-41d9-b376-cbc9fe2b3611")
-		)
-		(pad "2" smd roundrect
-			(at 1 0 180)
-			(size 1.2 1.4)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.208333)
-			(net "Net-(U4-#OE)")
-			(pinfunction "2_2")
-			(pintype "passive")
-			(uuid "806fd08e-bb08-4d8e-971a-12eb456cbf39")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "65f34fc1-4b1c-4c59-99ac-54a806570f6e")
@@ -18303,7 +17966,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "12K"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "715d99d9-080f-4856-9246-639d6a78104d")
@@ -18314,7 +17977,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Panasonic_03-31-2024_Resistor_Anti-Sulfur(ERJ-UP6D-Series).pdf"
+		(property "Datasheet" "https://www.mouser.com/datasheet/3/508/1/PYu-RP_51_RoHS_L_3.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18338,7 +18001,7 @@
 				)
 			)
 		)
-		(property "Field4" "Farnell"
+		(property "Field4" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18364,7 +18027,7 @@
 				)
 			)
 		)
-		(property "Field7" "Rohm"
+		(property "Field7" "YAGEO "
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18377,7 +18040,7 @@
 				)
 			)
 		)
-		(property "Field6" "MCR01MZPF1002"
+		(property "Field6" "RP0805FRE0712KL "
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18403,7 +18066,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-UP6D1002V"
+		(property "Mouser Part Number" " 603-RP0805FRE0712KL "
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20897,7 +20560,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.richtek.com/SaveDownload.aspx?specid=RT9742-00.pdf"
+		(property "Datasheet" "https://www.mouser.com/ProductDetail/Richtek/RT9742GGJ5?qs=amGC7iS6iy%2FZU2tAnLZxIA%3D%3D"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20934,7 +20597,7 @@
 				)
 			)
 		)
-		(property "Field5" "	2545875"
+		(property "Field5" "2545875"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24920,7 +24583,7 @@
 			(at 2.938 -0.975 90)
 			(size 0.45 1.475)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "Net-(U4-#OE)")
+			(net "GND")
 			(pinfunction "#OE_23")
 			(pintype "input")
 			(uuid "74519a02-6ac0-4a15-888f-b98a44efed24")
@@ -27062,14 +26725,6 @@
 		(uuid "24094da9-2d09-4649-82b9-13508f7be2a5")
 	)
 	(segment
-		(start 154.5566 132.5)
-		(end 157.011 134.9544)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "248dfda7-3be1-4fe9-8ea5-897181178ec6")
-	)
-	(segment
 		(start 119.8 64.1)
 		(end 120.8 64.1)
 		(width 0.2)
@@ -27252,6 +26907,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "374236f5-ffff-4f9e-b5bf-622746de372a")
+	)
+	(segment
+		(start 147.338 133.525)
+		(end 152.175 133.525)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "38a22f1d-852b-460e-b792-04ebf3453c32")
 	)
 	(segment
 		(start 129.4 86.7)
@@ -28334,6 +27997,14 @@
 		(uuid "af2f6db4-d348-4691-98b4-be5d898fee46")
 	)
 	(segment
+		(start 152.175 133.525)
+		(end 152.825 132.875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "afbaa2ea-a926-400a-9c53-5b4a62731e9c")
+	)
+	(segment
 		(start 143.575 131.575)
 		(end 143.75 131.75)
 		(width 0.2)
@@ -28692,14 +28363,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "de01cf05-91d8-4177-8fc4-5b3e113a032d")
-	)
-	(segment
-		(start 153.2 132.5)
-		(end 154.5566 132.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "decc5e6f-92e2-4f86-b71c-17c5d61bd20e")
 	)
 	(segment
 		(start 141.462 131.575)
@@ -48553,22 +48216,6 @@
 		(layer "F.Cu")
 		(net "/Servo_PWM_15")
 		(uuid "8e93975c-43fd-4a95-b584-9ec6fe2784cf")
-	)
-	(segment
-		(start 154.461 134.9544)
-		(end 153.0316 133.525)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(U4-#OE)")
-		(uuid "3e96fc1e-fa56-48fc-bfaf-97bedc1b950e")
-	)
-	(segment
-		(start 153.0316 133.525)
-		(end 147.338 133.525)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(U4-#OE)")
-		(uuid "fae6f1db-0f8d-4260-bd9d-aad0ea9580e5")
 	)
 	(segment
 		(start 150.738 143.725)
