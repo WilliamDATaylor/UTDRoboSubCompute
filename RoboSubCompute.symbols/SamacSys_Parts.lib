@@ -1,0 +1,625 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model USB1055-GF-L-A
+#/14946339/1838861/2.50/6/3/Connector
+DEF USB1055-GF-L-A J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "USB1055-GF-L-A" 750 200 50 H V L CNN
+F2 "USB1055GFLA" 750 100 50 H I L CNN
+F3 "https://www.mouser.de/datasheet/2/837/USB1055-2888031.pdf" 750 0 50 H I L CNN
+F4 "USB Connectors USB A Skt, Mid Top SMT, R/A, GF, offset 2.24mm,W/stake, T&R" 750 -100 50 H I L CNN "Description"
+F5 "7.37" 750 -200 50 H I L CNN "Height"
+F6 "640-USB1055-GF-L-A" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/GCT/USB1055-GF-L-A?qs=KUoIvG%2F9IlbT%2FUEMJluenA%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "GCT (GLOBAL CONNECTOR TECHNOLOGY)" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "USB1055-GF-L-A" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 900 0 200 L 50 50 0 0 P
+X 2 2 900 -100 200 L 50 50 0 0 P
+X 3 3 900 -200 200 L 50 50 0 0 P
+X 4 4 900 -300 200 L 50 50 0 0 P
+X MH1 MH1 0 0 200 R 50 50 0 0 P
+X MH2 MH2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model GSB191217FHR
+#/18032576/1838861/2.50/8/3/Connector
+DEF GSB191217FHR J 0 30 Y Y 1 F N
+F0 "J" 950 300 50 H V L CNN
+F1 "GSB191217FHR" 950 200 50 H V L CNN
+F2 "GSB191217FHR" 950 100 50 H I L CNN
+F3 "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/gsb1912x7fhr.pdf" 950 0 50 H I L CNN
+F4 "USB Connectors USB 2.0, Type A, Input Output Connectors, Receptacle, Upright, 4 Pins, Shell Kink with Nickel Plating, 30u in Gold, Dip3.8mm, Black High Temperature Housing, Tray Packaging" 950 -100 50 H I L CNN "Description"
+F5 "14.9" 950 -200 50 H I L CNN "Height"
+F6 "523-GSB191217FHR" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Amphenol-Commercial-Products/GSB191217FHR?qs=f9yNj16SXrLZVZhLnseIXQ%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Amphenol" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "GSB191217FHR" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VBUS 1 0 0 200 R 50 50 0 0 P
+X D- 2 0 -100 200 R 50 50 0 0 P
+X D+ 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X MH1 MH1 1100 0 200 L 50 50 0 0 P
+X MH2 MH2 1100 -100 200 L 50 50 0 0 P
+X MH3 MH3 1100 -200 200 L 50 50 0 0 P
+X MH4 MH4 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 1663962
+#/20112169/1838861/2.50/14/2/Connector
+DEF 1663962 J 0 30 Y Y 1 F N
+F0 "J" 1150 300 50 H V L CNN
+F1 "1663962" 1150 200 50 H V L CNN
+F2 "1663962" 1150 100 50 H I L CNN
+F3 "https://product-download.phoenixcontact.com/8774983?response-content-disposition=inline;%20filename%3D%22pxc_1663962_00_00_CUC-IB4M-J1ST-AT-R4T-L1_FAM.pdf%22&Expires=1732350449&Signature=gcLYFhWrM9wQTO-x4ZgcMxv3xP6IiBxy3kwscyxz8jlz4nDV27PXlLe9xTWf9PzvtSy6" 1150 0 50 H I L CNN
+F4 "CUC-IB4M-J1ST-AT/R4T-L1 - RJ45 PCB connector RJ45 PCB connector, number of positions: 8, 100 Mbps" 1150 -100 50 H I L CNN "Description"
+F5 "14.05" 1150 -200 50 H I L CNN "Height"
+F6 "" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Phoenix Contact" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1663962" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X MH1 1 0 0 200 R 50 50 0 0 P
+X MH2 2 0 -100 200 R 50 50 0 0 P
+X P1 P1 0 -200 200 R 50 50 0 0 P
+X P2 P2 0 -300 200 R 50 50 0 0 P
+X P3 P3 0 -400 200 R 50 50 0 0 P
+X P4 P4 0 -500 200 R 50 50 0 0 P
+X P5 P5 0 -600 200 R 50 50 0 0 P
+X P6 P6 1300 0 200 L 50 50 0 0 P
+X P7 P7 1300 -100 200 L 50 50 0 0 P
+X P8 P8 1300 -200 200 L 50 50 0 0 P
+X A_GREEN P11 1300 -300 200 L 50 50 0 0 P
+X K_GREEN P12 1300 -400 200 L 50 50 0 0 P
+X A_YELLOW P13 1300 -500 200 L 50 50 0 0 P
+X K_YELLOW P14 1300 -600 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ARJM11B1-502-NN-EW2
+#/1429299/1838861/2.50/12/3/Connector
+DEF ARJM11B1-502-NN-EW2 J 0 30 Y Y 1 F N
+F0 "J" 950 300 50 H V L CNN
+F1 "ARJM11B1-502-NN-EW2" 950 200 50 H V L CNN
+F2 "ARJM11B1502NNEW2" 950 100 50 H I L CNN
+F3 "https://abracon.com/Magnetics/ARJM11.pdf" 950 0 50 H I L CNN
+F4 "Modular Connectors / Ethernet Connectors RJ45 JACK W/MAG 1000Base-T , -40C ~ 85C" 950 -100 50 H I L CNN "Description"
+F5 "13.75" 950 -200 50 H I L CNN "Height"
+F6 "815-RJM11B1502NNEW2" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ABRACON/ARJM11B1-502-NN-EW2?qs=YCa%2FAAYMW03wpRniPtLh%2FQ%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "ABRACON" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ARJM11B1-502-NN-EW2" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X TD1+ 1 0 0 200 R 50 50 0 0 P
+X TD1- 2 0 -100 200 R 50 50 0 0 P
+X TD2+ 3 0 -200 200 R 50 50 0 0 P
+X TD2- 4 0 -300 200 R 50 50 0 0 P
+X CT_1 5 0 -400 200 R 50 50 0 0 P
+X CT_2 6 0 -500 200 R 50 50 0 0 P
+X TD3+ 7 1100 0 200 L 50 50 0 0 P
+X TD3- 8 1100 -100 200 L 50 50 0 0 P
+X TD4+ 9 1100 -200 200 L 50 50 0 0 P
+X TD4- 10 1100 -300 200 L 50 50 0 0 P
+X MH_1 13 1100 -400 200 L 50 50 0 0 P
+X MH_2 14 1100 -500 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model GTFP08432B1HR
+#/17203682/1838861/2.50/12/3/Connector
+DEF GTFP08432B1HR J 0 30 Y Y 1 F N
+F0 "J" 1650 300 50 H V L CNN
+F1 "GTFP08432B1HR" 1650 200 50 H V L CNN
+F2 "GTFP08432B1HR" 1650 100 50 H I L CNN
+F3 "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/gtfp084xxb1hr.pdf" 1650 0 50 H I L CNN
+F4 "10 (8 + 2) Position Card Connector Secure Digital - microSD Surface Mount, Right Angle Gold" 1650 -100 50 H I L CNN "Description"
+F5 "2.13" 1650 -200 50 H I L CNN "Height"
+F6 "523-GTFP08432B1HR" 1650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Amphenol-Commercial-Products/GTFP08432B1HR?qs=PzGy0jfpSMuTrjVaMSD4lg%3D%3D" 1650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Amphenol" 1650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "GTFP08432B1HR" 1650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X DAT2 1 0 0 200 R 50 50 0 0 P
+X CD/DAT3 2 0 -100 200 R 50 50 0 0 P
+X CMD 3 0 -200 200 R 50 50 0 0 P
+X VDD 4 0 -300 200 R 50 50 0 0 P
+X CLK 5 0 -400 200 R 50 50 0 0 P
+X VSS 6 0 -500 200 R 50 50 0 0 P
+X DAT0 7 1800 0 200 L 50 50 0 0 P
+X DAT1 8 1800 -100 200 L 50 50 0 0 P
+X CARD_DETECT_PIN 9 1800 -200 200 L 50 50 0 0 P
+X GROUND_1 10 1800 -300 200 L 50 50 0 0 P
+X GROUND_2 11 1800 -400 200 L 50 50 0 0 P
+X GROUND_3 12 1800 -500 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1600 100 1600 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model GSB3112311HR
+#/18773646/1838861/2.50/22/2/Connector
+DEF GSB3112311HR J 0 30 Y Y 1 F N
+F0 "J" 1650 300 50 H V L CNN
+F1 "GSB3112311HR" 1650 200 50 H V L CNN
+F2 "GSB3112311HR" 1650 100 50 H I L CNN
+F3 "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/gsb3112xxxhr.pdf" 1650 0 50 H I L CNN
+F4 "USB 3.2, Type A, Receptacle, Right Angle Stacked, 18 Pins, Shell Kink with Nickel Plating, 30&mu;in Gold, Dip 3.0mm, Blue High Temperature Housing, Tray Packaging" 1650 -100 50 H I L CNN "Description"
+F5 "16.2" 1650 -200 50 H I L CNN "Height"
+F6 "" 1650 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 1650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Amphenol Communications Solutions" 1650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "GSB3112311HR" 1650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VBUS_1 1 0 0 200 R 50 50 0 0 P
+X D-_1 2 0 -100 200 R 50 50 0 0 P
+X D+_1 3 0 -200 200 R 50 50 0 0 P
+X GND_1 4 0 -300 200 R 50 50 0 0 P
+X SSRX-_1 5 0 -400 200 R 50 50 0 0 P
+X SSRX+_1 6 0 -500 200 R 50 50 0 0 P
+X GND_DRAIN_1 7 0 -600 200 R 50 50 0 0 P
+X SSTX-_1 8 0 -700 200 R 50 50 0 0 P
+X SSTX+_1 9 0 -800 200 R 50 50 0 0 P
+X VBUS_2 10 0 -900 200 R 50 50 0 0 P
+X D-_2 11 0 -1000 200 R 50 50 0 0 P
+X D+_2 12 1800 0 200 L 50 50 0 0 P
+X GND_2 13 1800 -100 200 L 50 50 0 0 P
+X SSRX-_2 14 1800 -200 200 L 50 50 0 0 P
+X SSRX+_2 15 1800 -300 200 L 50 50 0 0 P
+X GND_DRAIN_2 16 1800 -400 200 L 50 50 0 0 P
+X SSTX-_2 17 1800 -500 200 L 50 50 0 0 P
+X SSTX+_2 18 1800 -600 200 L 50 50 0 0 P
+X SHIELD_1 19 1800 -700 200 L 50 50 0 0 P
+X SHIELD_2 20 1800 -800 200 L 50 50 0 0 P
+X SHIELD_3 21 1800 -900 200 L 50 50 0 0 P
+X SHIELD_4 22 1800 -1000 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1600 100 1600 -1100 200 -1100 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model AP22653W6-7
+#/5235591/1838861/2.50/6/2/Integrated Circuit
+DEF AP22653W6-7 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "AP22653W6-7" 1050 200 50 H V L CNN
+F2 "SOT95P280X145-6N" 1050 100 50 H I L CNN
+F3 "https://www.diodes.com//assets/Datasheets/AP22652_53_52A_53A.pdf" 1050 0 50 H I L CNN
+F4 "Power Switch ICs - Power Distribution 1-Ch Precision Curr-Limit Load SW" 1050 -100 50 H I L CNN "Description"
+F5 "1.45" 1050 -200 50 H I L CNN "Height"
+F6 "621-AP22653W6-7" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP22653W6-7?qs=rkhjVJ6%2F3ELFrpB7eThLLg%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Diodes Incorporated" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "AP22653W6-7" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X IN 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X EN 3 0 -200 200 R 50 50 0 0 P
+X OUT 6 1200 0 200 L 50 50 0 0 P
+X ILIM 5 1200 -100 200 L 50 50 0 0 P
+X ~FAULT 4 1200 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 150120RS75000
+#/314354/1838861/2.50/2/2/LED
+DEF 150120RS75000 LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "150120RS75000" 500 250 50 H V L BNN
+F2 "LEDC3216X68N" 500 150 50 H I L BNN
+F3 "https://www.we-online.com/components/products/download/Download_3D_150120RS75000+%28rev1%29.pdf" 500 50 50 H I L BNN
+F4 "WL-SMCW SMT Mono-Color Chip LED Waterclear 1206, Red Typ.(@20mA): 625nm, 150mcd, 2.0V, 140 AlInGaP" 500 -50 50 H I L BNN "Description"
+F5 "0.68" 500 -150 50 H I L BNN "Height"
+F6 "710-150120RS75000" 500 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150120RS75000?qs=2kOmHSv6VfSstSh2FOQbDw%3D%3D" 500 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "Wurth Elektronik" 500 -450 50 H I L BNN "Manufacturer_Name"
+F9 "150120RS75000" 500 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 250 100 150 200 N
+P 2 0 1 6 350 100 250 200 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+P 4 0 1 10 210 170 180 140 150 200 210 170 F
+P 4 0 1 10 310 170 280 140 250 200 310 170 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 150120GS75000
+#/2030/1838861/2.50/2/2/LED
+DEF 150120GS75000 LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "150120GS75000" 500 250 50 H V L BNN
+F2 "LEDC3214X68N" 500 150 50 H I L BNN
+F3 "https://www.we-online.com/components/products/download/Download_3D_150120GS75000+%28rev1%29.pdf" 500 50 50 H I L BNN
+F4 "WL-SMCW SMT Mono-Color Chip LED Waterclear 1206, Green Typ.(@20mA): 525nm, 450mcd, 3.2V, 140 InGaN" 500 -50 50 H I L BNN "Description"
+F5 "0.68" 500 -150 50 H I L BNN "Height"
+F6 "710-150120GS75000" 500 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150120GS75000?qs=LlUlMxKIyB3I3AMxrmBw4A%3D%3D" 500 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "Wurth Elektronik" 500 -450 50 H I L BNN "Manufacturer_Name"
+F9 "150120GS75000" 500 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 250 100 150 200 N
+P 2 0 1 6 350 100 250 200 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+P 4 0 1 10 210 170 180 140 150 200 210 170 F
+P 4 0 1 10 310 170 280 140 250 200 310 170 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CAT16-2200F4LF
+#/15876888/1838861/2.50/8/4/Resistor Network
+DEF CAT16-2200F4LF RN 0 30 Y Y 1 F N
+F0 "RN" 650 300 50 H V L CNN
+F1 "CAT16-2200F4LF" 650 200 50 H V L CNN
+F2 "CAT161000F4" 650 100 50 H I L CNN
+F3 "https://bourns.com/docs/product-datasheets/catcay.pdf?sfvrsn=eae9f7ea_24" 650 0 50 H I L CNN
+F4 "Res Thick Film Array 220 Ohm 1% 0.25W(1/4W) +/-200ppm/C ISOL 8-Pin 1206(4 X 0603) Concave SMD T/R" 650 -100 50 H I L CNN "Description"
+F5 "0.6" 650 -200 50 H I L CNN "Height"
+F6 "" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "CAT16-2200F4LF" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+X ~ 3 0 -100 200 R 50 50 0 0 P
+X ~ 4 800 -100 200 L 50 50 0 0 P
+X ~ 5 0 -200 200 R 50 50 0 0 P
+X ~ 6 800 -200 200 L 50 50 0 0 P
+X ~ 7 0 -300 200 R 50 50 0 0 P
+X ~ 8 800 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PCA9685PW,118
+#/11317453/1838861/2.50/28/3/Integrated Circuit
+DEF PCA9685PW,118 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "PCA9685PW,118" 1050 200 50 H V L CNN
+F2 "SOP65P640X110-28N" 1050 100 50 H I L CNN
+F3 "http://www.nxp.com/docs/en/data-sheet/PCA9685.pdf" 1050 0 50 H I L CNN
+F4 "LED Display Drivers" 1050 -100 50 H I L CNN "Description"
+F5 "1.1" 1050 -200 50 H I L CNN "Height"
+F6 "771-PCA9685PW,118" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/PCA9685PW118?qs=6YAT8rHPFU%252BtfwwKq4nwEQ%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "NXP" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "PCA9685PW,118" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A0 1 0 0 200 R 50 50 0 0 P
+X A1 2 0 -100 200 R 50 50 0 0 P
+X A2 3 0 -200 200 R 50 50 0 0 P
+X A3 4 0 -300 200 R 50 50 0 0 P
+X A4 5 0 -400 200 R 50 50 0 0 P
+X LED0 6 0 -500 200 R 50 50 0 0 P
+X LED1 7 0 -600 200 R 50 50 0 0 P
+X LED2 8 0 -700 200 R 50 50 0 0 P
+X LED3 9 0 -800 200 R 50 50 0 0 P
+X LED4 10 0 -900 200 R 50 50 0 0 P
+X LED5 11 0 -1000 200 R 50 50 0 0 P
+X LED6 12 0 -1100 200 R 50 50 0 0 P
+X LED7 13 0 -1200 200 R 50 50 0 0 P
+X VSS 14 0 -1300 200 R 50 50 0 0 P
+X VDD 28 1200 0 200 L 50 50 0 0 P
+X SDA 27 1200 -100 200 L 50 50 0 0 P
+X SCL 26 1200 -200 200 L 50 50 0 0 P
+X EXTCLK 25 1200 -300 200 L 50 50 0 0 P
+X A5 24 1200 -400 200 L 50 50 0 0 P
+X ~OE 23 1200 -500 200 L 50 50 0 0 P
+X LED15 22 1200 -600 200 L 50 50 0 0 P
+X LED14 21 1200 -700 200 L 50 50 0 0 P
+X LED13 20 1200 -800 200 L 50 50 0 0 P
+X LED12 19 1200 -900 200 L 50 50 0 0 P
+X LED11 18 1200 -1000 200 L 50 50 0 0 P
+X LED10 17 1200 -1100 200 L 50 50 0 0 P
+X LED9 16 1200 -1200 200 L 50 50 0 0 P
+X LED8 15 1200 -1300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -1400 200 -1400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model RT9742GGJ5
+#/1567804/1838861/2.50/5/3/Integrated Circuit
+DEF RT9742GGJ5 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "RT9742GGJ5" 1050 200 50 H V L CNN
+F2 "SOT94P280X100-5N" 1050 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/RT9742GGJ5.pdf" 1050 0 50 H I L CNN
+F4 "POWER LOAD SWITCH, HIGH SIDE, TSOT-23-5; Power Load Switch Type:High Side; Input Voltage:6V; Current Limit:1.1A; On State Resistance:0.07ohm; Distribution Switch Case Style:TSOT-23; No. of Pins:5Pins; Thermal Protection:Yes; On / RoHS Compliant: Yes" 1050 -100 50 H I L CNN "Description"
+F5 "1" 1050 -200 50 H I L CNN "Height"
+F6 "835-RT9742GGJ5" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Richtek/RT9742GGJ5?qs=amGC7iS6iy%2FZU2tAnLZxIA%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "RICHTEK" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "RT9742GGJ5" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VOUT 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X ~FLG 3 0 -200 200 R 50 50 0 0 P
+X EN/~EN 4 1200 0 200 L 50 50 0 0 P
+X VIN 5 1200 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ERJ-U06D2201V
+#/15236601/1838861/2.50/2/2/Resistor
+DEF ERJ-U06D2201V R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ERJ-U06D2201V" 550 150 50 H V L CNN
+F2 "ERJS06_U06_(0805)" 550 50 50 H I L CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf" 550 -50 50 H I L CNN
+F4 "Anti-Sulfurated Thick Film Chip Resistor, 0805, 0.125W" 550 -150 50 H I L CNN "Description"
+F5 "0.7" 550 -250 50 H I L CNN "Height"
+F6 "667-ERJ-U06D2201V" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-U06D2201V?qs=MLItCLRbWsxmx1iHcWTR%252BA%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Panasonic" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "ERJ-U06D2201V" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TF38-22S-0.5SV_830_
+#/1820116/1838861/2.50/26/4/Connector
+DEF TF38-22S-0.5SV_830_ J 0 30 Y Y 1 F N
+F0 "J" 850 300 50 H V L CNN
+F1 "TF38-22S-0.5SV_830_" 850 200 50 H V L CNN
+F2 "TF3822S05SV830" 850 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/47cab4a78cc78db9871c747a717083fe.pdf" 850 0 50 H I L CNN
+F4 "FFC & FPC Connectors" 850 -100 50 H I L CNN "Description"
+F5 "5.4" 850 -200 50 H I L CNN "Height"
+F6 "798-TF38-22S-05SV830" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/TF38-22S-0.5SV830?qs=vcbW%252B4%252BSTIrch674veswpQ%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Hirose" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TF38-22S-0.5SV(830)" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 1000 -1100 200 L 50 50 0 0 P
+X 2 2 0 -1100 200 R 50 50 0 0 P
+X 3 3 1000 -1000 200 L 50 50 0 0 P
+X 4 4 0 -1000 200 R 50 50 0 0 P
+X 5 5 1000 -900 200 L 50 50 0 0 P
+X 6 6 0 -900 200 R 50 50 0 0 P
+X 7 7 1000 -800 200 L 50 50 0 0 P
+X 8 8 0 -800 200 R 50 50 0 0 P
+X 9 9 1000 -700 200 L 50 50 0 0 P
+X 10 10 0 -700 200 R 50 50 0 0 P
+X 11 11 1000 -600 200 L 50 50 0 0 P
+X 12 12 0 -600 200 R 50 50 0 0 P
+X 13 13 1000 -500 200 L 50 50 0 0 P
+X 14 14 0 -500 200 R 50 50 0 0 P
+X 15 15 1000 -400 200 L 50 50 0 0 P
+X 16 16 0 -400 200 R 50 50 0 0 P
+X 17 17 1000 -300 200 L 50 50 0 0 P
+X 18 18 0 -300 200 R 50 50 0 0 P
+X 19 19 1000 -200 200 L 50 50 0 0 P
+X 20 20 0 -200 200 R 50 50 0 0 P
+X 21 21 1000 -100 200 L 50 50 0 0 P
+X 22 22 0 -100 200 R 50 50 0 0 P
+X MP1 MP1 0 0 200 R 50 50 0 0 P
+X MP2 MP2 0 -1200 200 R 50 50 0 0 P
+X MP3 MP3 1000 -1200 200 L 50 50 0 0 P
+X MP4 MP4 1000 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -1300 200 -1300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model GSB3116344KHHR
+#/14673757/1838861/2.50/13/2/Connector
+DEF GSB3116344KHHR J 0 30 Y Y 1 F N
+F0 "J" 1250 300 50 H V L CNN
+F1 "GSB3116344KHHR" 1250 200 50 H V L CNN
+F2 "GSB3116344KHHR" 1250 100 50 H I L CNN
+F3 "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_3_2_gen1_type_a.pdf" 1250 0 50 H I L CNN
+F4 "USB3.2, A, GEN1, UPRIGHT, DIP, 30&mu;in GOLD, BLUE, TL 3.3MM" 1250 -100 50 H I L CNN "Description"
+F5 "14.9" 1250 -200 50 H I L CNN "Height"
+F6 "523-GSB3116344KHHR" 1250 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Amphenol-Commercial-Products/GSB3116344KHHR?qs=81r%252BiQLm7BSSapR8R%252Bkfyg%3D%3D" 1250 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Amphenol Communications Solutions" 1250 -500 50 H I L CNN "Manufacturer_Name"
+F9 "GSB3116344KHHR" 1250 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X VBUS 1 0 0 200 R 50 50 0 0 P
+X D- 2 0 -100 200 R 50 50 0 0 P
+X D+ 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X SSRX- 5 0 -400 200 R 50 50 0 0 P
+X SSRX+ 6 0 -500 200 R 50 50 0 0 P
+X GND_DRAIN 7 0 -600 200 R 50 50 0 0 P
+X SSTX- 8 1400 0 200 L 50 50 0 0 P
+X SSTX+ 9 1400 -100 200 L 50 50 0 0 P
+X MH1 MH1 1400 -200 200 L 50 50 0 0 P
+X MH2 MH2 1400 -300 200 L 50 50 0 0 P
+X MH3 MH3 1400 -400 200 L 50 50 0 0 P
+X MH4 MH4 1400 -500 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TPD4E05U06QDQARQ1
+#/751691/1838861/2.50/10/4/Integrated Circuit
+DEF TPD4E05U06QDQARQ1 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "TPD4E05U06QDQARQ1" 1050 200 50 H V L CNN
+F2 "DQA(R-PUSON-N10)" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/tpd4e05u06-q1" 1050 0 50 H I L CNN
+F4 "Automotive 4-Channel ESD Protection Solution for SuperSpeed (up to 5 Gbps) Interface" 1050 -100 50 H I L CNN "Description"
+F5 "" 1050 -200 50 H I L CNN "Height"
+F6 "595-PD4E05U06QDQARQ1" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD4E05U06QDQARQ1?qs=Lb6%252B0IsOw49KOjCcTa%2F6Ew%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TPD4E05U06QDQARQ1" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X D1+ 1 0 0 200 R 50 50 0 0 P
+X D1- 2 0 -100 200 R 50 50 0 0 P
+X GND_1 3 0 -200 200 R 50 50 0 0 P
+X D2+ 4 0 -300 200 R 50 50 0 0 P
+X D2- 5 0 -400 200 R 50 50 0 0 P
+X MC 6 1200 -400 200 L 50 50 0 0 P
+X NC_1 7 1200 -300 200 L 50 50 0 0 P
+X GND_2 8 1200 -200 200 L 50 50 0 0 P
+X NC_2 9 1200 -100 200 L 50 50 0 0 P
+X NC_3 10 1200 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 3008TR
+#/1265272/1838861/2.50/3/4/Battery
+DEF 3008TR BT 0 30 Y Y 1 F N
+F0 "BT" 850 300 50 H V L CNN
+F1 "3008TR" 850 200 50 H V L CNN
+F2 "3008TR" 850 100 50 H I L CNN
+F3 "https://www.digikey.com/en/products/detail/keystone-electronics/3008TR/2746496" 850 0 50 H I L CNN
+F4 "Coin Cell Battery Holders SMT 1.00X1.40X.89 .093 Hole 200pc reel" 850 -100 50 H I L CNN "Description"
+F5 "6.09" 850 -200 50 H I L CNN "Height"
+F6 "534-3008TR" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3008TR?qs=xHlTOBifBJNRKlVNnf0GVQ%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Keystone Electronics" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "3008TR" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X +_1 1 0 0 200 R 50 50 0 0 P
+X +_2 2 1000 -100 200 L 50 50 0 0 P
+X - 3 1000 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model BAT-HLD-013-SMT-TR
+#/18679511/1838861/2.50/2/3/Battery
+DEF BAT-HLD-013-SMT-TR BT 0 30 Y Y 1 F N
+F0 "BT" 650 300 50 H V L CNN
+F1 "BAT-HLD-013-SMT-TR" 650 200 50 H V L CNN
+F2 "BATHLD013SMTTR" 650 100 50 H I L CNN
+F3 "https://www.te.com/en/product-BAT-HLD-013-SMT-TR.html" 650 0 50 H I L CNN
+F4 "CR2032 Battery Holder, 1 Position, Horizontal, Nickel (Ni)" 650 -100 50 H I L CNN "Description"
+F5 "6.5" 650 -200 50 H I L CNN "Height"
+F6 "712-BAT-HLD-013SMTTR" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Linx-Technologies/BAT-HLD-013-SMT-TR?qs=4ASt3YYao0UKhYWrBts7tw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "BAT-HLD-013-SMT-TR" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X + 1 0 0 200 R 50 50 0 0 P
+X - 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model P70-1020045R
+#/541542/1838861/2.50/1/2/Connector
+DEF P70-1020045R J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "P70-1020045R" 650 200 50 H V L CNN
+F2 "P701020045R" 650 100 50 H I L CNN
+F3 "https://content.harwin.com/m/05c297a771746089/original/DRG-02618-Technical-Drawing-Datasheet-P70-10X-pdf.pdf" 650 0 50 H I L CNN
+F4 "Pogo Pins: Individual SMT Spring Loaded Pogo Pin 5.5mm high" 650 -100 50 H I L CNN "Description"
+F5 "5.5" 650 -200 50 H I L CNN "Height"
+F6 "855-P70-1020045R" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Harwin/P70-1020045R?qs=k41KVqW3ymoWKP%252BHf6cBXg%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Harwin" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "P70-1020045R" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -100 200 -100 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model UJ20-C-H-G-MSMT-4-P16-TR
+#/20025276/1838861/2.50/16/2/Connector
+DEF UJ20-C-H-G-MSMT-4-P16-TR J 0 30 Y Y 1 F N
+F0 "J" 1150 300 50 H V L CNN
+F1 "UJ20-C-H-G-MSMT-4-P16-TR" 1150 200 50 H V L CNN
+F2 "UJ20CHGMSMT4P16TR" 1150 100 50 H I L CNN
+F3 "https://www.sameskydevices.com/product/resource/UJ20-C-H-G-MSMT-4-P16-TR.pdf" 1150 0 50 H I L CNN
+F4 "UJ20-C-H-G-MSMT-4-P16-TR - Type C, USB 2.0, 480 Mbps, 48 Vdc, 5 A, Horizontal, Mid Mount SMT, Surface Mount Contact Pin Type, Gold Plated 3 in, 16 Pins, USB Receptacle" 1150 -100 50 H I L CNN "Description"
+F5 "3.36" 1150 -200 50 H I L CNN "Height"
+F6 "179-UJ20CHGMSMT4P16T" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Same-Sky/UJ20-C-H-G-MSMT-4-P16-TR?qs=IKkN%2F947nfCjJm0kGPdIjg%3D%3D" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Same Sky" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "UJ20-C-H-G-MSMT-4-P16-TR" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X MH1 1 0 0 200 R 50 50 0 0 P
+X MH2 2 0 -100 200 R 50 50 0 0 P
+X MH3 3 0 -200 200 R 50 50 0 0 P
+X MH4 4 0 -300 200 R 50 50 0 0 P
+X GND_1 A1 0 -400 200 R 50 50 0 0 P
+X VBUS_1 A4 0 -500 200 R 50 50 0 0 P
+X CC1 A5 0 -600 200 R 50 50 0 0 P
+X DP1 A6 0 -700 200 R 50 50 0 0 P
+X DN1 A7 1300 0 200 L 50 50 0 0 P
+X SBU1 A8 1300 -100 200 L 50 50 0 0 P
+X GND_2 B1 1300 -200 200 L 50 50 0 0 P
+X VBUS_2 B4 1300 -300 200 L 50 50 0 0 P
+X CC2 B5 1300 -400 200 L 50 50 0 0 P
+X DP2 B6 1300 -500 200 L 50 50 0 0 P
+X DN2 B7 1300 -600 200 L 50 50 0 0 P
+X SBU2 B8 1300 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SD02H0B
+#/2077276/1838861/2.50/4/2/Switch
+DEF SD02H0B S 0 30 Y Y 1 F N
+F0 "S" 950 300 50 H V L CNN
+F1 "SD02H0B" 950 200 50 H V L CNN
+F2 "SD02H0B" 950 100 50 H I L CNN
+F3 "https://www.ckswitches.com/media/1324/sd.pdf" 950 0 50 H I L CNN
+F4 "Dip Switch SPST 2 Position Through Hole Slide (Standard) Actuator 100mA 25VDC" 950 -100 50 H I L CNN "Description"
+F5 "4.27" 950 -200 50 H I L CNN "Height"
+F6 "" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "C & K COMPONENTS" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SD02H0B" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NO1 1 0 -100 200 R 50 50 0 0 P
+X NO2 2 1100 -100 200 L 50 50 0 0 P
+X COM1 3 1100 0 200 L 50 50 0 0 P
+X COM2 4 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

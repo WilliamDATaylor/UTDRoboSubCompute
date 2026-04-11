@@ -1,0 +1,135 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP USB1055-GF-L-A
+D USB Connectors USB A Skt, Mid Top SMT, R/A, GF, offset 2.24mm,W/stake, T&R
+K
+F https://www.mouser.de/datasheet/2/837/USB1055-2888031.pdf
+$ENDCMP
+#
+$CMP GSB191217FHR
+D USB Connectors USB 2.0, Type A, Input Output Connectors, Receptacle, Upright, 4 Pins, Shell Kink with Nickel Plating, 30u in Gold, Dip3.8mm, Black High Temperature Housing, Tray Packaging
+K
+F https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/gsb1912x7fhr.pdf
+$ENDCMP
+#
+$CMP 1663962
+D CUC-IB4M-J1ST-AT/R4T-L1 - RJ45 PCB connector RJ45 PCB connector, number of positions: 8, 100 Mbps
+K
+F https://product-download.phoenixcontact.com/8774983?response-content-disposition=inline;%20filename%3D%22pxc_1663962_00_00_CUC-IB4M-J1ST-AT-R4T-L1_FAM.pdf%22&Expires=1732350449&Signature=gcLYFhWrM9wQTO-x4ZgcMxv3xP6IiBxy3kwscyxz8jlz4nDV27PXlLe9xTWf9PzvtSy6
+$ENDCMP
+#
+$CMP ARJM11B1-502-NN-EW2
+D Modular Connectors / Ethernet Connectors RJ45 JACK W/MAG 1000Base-T , -40C ~ 85C
+K
+F https://abracon.com/Magnetics/ARJM11.pdf
+$ENDCMP
+#
+$CMP GTFP08432B1HR
+D 10 (8 + 2) Position Card Connector Secure Digital - microSD Surface Mount, Right Angle Gold
+K
+F https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/gtfp084xxb1hr.pdf
+$ENDCMP
+#
+$CMP GSB3112311HR
+D USB 3.2, Type A, Receptacle, Right Angle Stacked, 18 Pins, Shell Kink with Nickel Plating, 30&mu;in Gold, Dip 3.0mm, Blue High Temperature Housing, Tray Packaging
+K
+F https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/gsb3112xxxhr.pdf
+$ENDCMP
+#
+$CMP AP22653W6-7
+D Power Switch ICs - Power Distribution 1-Ch Precision Curr-Limit Load SW
+K
+F https://www.diodes.com//assets/Datasheets/AP22652_53_52A_53A.pdf
+$ENDCMP
+#
+$CMP 150120RS75000
+D WL-SMCW SMT Mono-Color Chip LED Waterclear 1206, Red Typ.(@20mA): 625nm, 150mcd, 2.0V, 140 AlInGaP
+K
+F https://www.we-online.com/components/products/download/Download_3D_150120RS75000+%28rev1%29.pdf
+$ENDCMP
+#
+$CMP 150120GS75000
+D WL-SMCW SMT Mono-Color Chip LED Waterclear 1206, Green Typ.(@20mA): 525nm, 450mcd, 3.2V, 140 InGaN
+K
+F https://www.we-online.com/components/products/download/Download_3D_150120GS75000+%28rev1%29.pdf
+$ENDCMP
+#
+$CMP CAT16-2200F4LF
+D Res Thick Film Array 220 Ohm 1% 0.25W(1/4W) +/-200ppm/C ISOL 8-Pin 1206(4 X 0603) Concave SMD T/R
+K
+F https://bourns.com/docs/product-datasheets/catcay.pdf?sfvrsn=eae9f7ea_24
+$ENDCMP
+#
+$CMP PCA9685PW,118
+D LED Display Drivers
+K
+F http://www.nxp.com/docs/en/data-sheet/PCA9685.pdf
+$ENDCMP
+#
+$CMP RT9742GGJ5
+D POWER LOAD SWITCH, HIGH SIDE, TSOT-23-5; Power Load Switch Type:High Side; Input Voltage:6V; Current Limit:1.1A; On State Resistance:0.07ohm; Distribution Switch Case Style:TSOT-23; No. of Pins:5Pins; Thermal Protection:Yes; On / RoHS Compliant: Yes
+K
+F https://componentsearchengine.com/Datasheets/2/RT9742GGJ5.pdf
+$ENDCMP
+#
+$CMP ERJ-U06D2201V
+D Anti-Sulfurated Thick Film Chip Resistor, 0805, 0.125W
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf
+$ENDCMP
+#
+$CMP TF38-22S-0.5SV_830_
+D FFC & FPC Connectors
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/47cab4a78cc78db9871c747a717083fe.pdf
+$ENDCMP
+#
+$CMP GSB3116344KHHR
+D USB3.2, A, GEN1, UPRIGHT, DIP, 30&mu;in GOLD, BLUE, TL 3.3MM
+K
+F https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_3_2_gen1_type_a.pdf
+$ENDCMP
+#
+$CMP TPD4E05U06QDQARQ1
+D Automotive 4-Channel ESD Protection Solution for SuperSpeed (up to 5 Gbps) Interface
+K
+F http://www.ti.com/lit/gpn/tpd4e05u06-q1
+$ENDCMP
+#
+$CMP 3008TR
+D Coin Cell Battery Holders SMT 1.00X1.40X.89 .093 Hole 200pc reel
+K
+F https://www.digikey.com/en/products/detail/keystone-electronics/3008TR/2746496
+$ENDCMP
+#
+$CMP BAT-HLD-013-SMT-TR
+D CR2032 Battery Holder, 1 Position, Horizontal, Nickel (Ni)
+K
+F https://www.te.com/en/product-BAT-HLD-013-SMT-TR.html
+$ENDCMP
+#
+$CMP P70-1020045R
+D Pogo Pins: Individual SMT Spring Loaded Pogo Pin 5.5mm high
+K
+F https://content.harwin.com/m/05c297a771746089/original/DRG-02618-Technical-Drawing-Datasheet-P70-10X-pdf.pdf
+$ENDCMP
+#
+$CMP UJ20-C-H-G-MSMT-4-P16-TR
+D UJ20-C-H-G-MSMT-4-P16-TR - Type C, USB 2.0, 480 Mbps, 48 Vdc, 5 A, Horizontal, Mid Mount SMT, Surface Mount Contact Pin Type, Gold Plated 3 in, 16 Pins, USB Receptacle
+K
+F https://www.sameskydevices.com/product/resource/UJ20-C-H-G-MSMT-4-P16-TR.pdf
+$ENDCMP
+#
+$CMP SD02H0B
+D Dip Switch SPST 2 Position Through Hole Slide (Standard) Actuator 100mA 25VDC
+K
+F https://www.ckswitches.com/media/1324/sd.pdf
+$ENDCMP
+#
+#End Doc Library
